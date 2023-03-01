@@ -3,9 +3,15 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
+import { useRouter } from 'next/router'
+import Navbar from './components/navbar'
+
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const { router, pathname } = useRouter();
+  console.log(router)
   return (
     <>
       <Head >
@@ -14,10 +20,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <main className={styles.main}>
-
-        <div className="mt-10 text-white">NextJS</div>
-
+      <main className="main__body">
+        <div className="container">
+        <Navbar />
+        <div className="mt-10 text-black">NextJS</div>
+        </div>
 
 
 
