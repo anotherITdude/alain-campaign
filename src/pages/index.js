@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 
 import { useRouter } from 'next/router'
 import Navbar from './components/navbar'
+import Hero from './components/hero';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -23,10 +24,10 @@ export default function Home() {
       <main className="main__body">
         <div className="container">
           <Navbar />
-          <div className="mt-10 text-black">NextJS</div>
+          <Hero />
         </div>
 
-        <div className="h-[1000px]">gg</div>
+        <div className="h-[1000px]"></div>
 
       </main>
     </>

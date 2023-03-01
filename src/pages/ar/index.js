@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 
 import { useRouter } from 'next/router'
 import Navbarar from '../components/navbarar';
+import Heroar from '../components/heroar'
 
 
 function Ar() {
@@ -20,11 +21,10 @@ function Ar() {
                 </Head>
                 <main className="main__body">
                     <div className="container">
-                        <Navbarar  />
-                        <div className="mt-10 text-black">NextJS Arabic</div>
+                        <Navbarar />
+                        <Heroar />
                     </div>
-
-
+                    <div className="h-[1000px]"></div>
 
                 </main>
             </>

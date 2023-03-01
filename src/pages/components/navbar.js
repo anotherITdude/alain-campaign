@@ -12,8 +12,8 @@ function Navbar() {
             transition={{ duration: 1 }}
             className={`flex navbar_heading justify-end`}>
             <motion.ul
-                initial={{ y: -40 }}
-                whileInView={{ y: 0 }}
+                initial={{ y: -40, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
                 className='mr-2'>
                 <motion.li className="inactive">En  </motion.li>
