@@ -12,10 +12,28 @@
   }
 
   .navbar_heading {
-    @apply flex h-[55px] w-full bg-white items-center;
+    @apply flex h-[60px] w-full items-center;
   }
+
+  .navbar_heading ul {
+    @apply flex items-center justify-center text-base
+    w-[80px] bg-white rounded-full pl-2 pt-1 pb-1 shadow-xl
+  }
+
   .navbar_heading li {
-    @apply  mr-2 cursor-pointer
+    @apply mr-2 cursor-pointer;
+  }
+
+  .navbar_heading .divider {
+    @apply text-sm pb-[2px];
+  }
+
+  .navbar_heading .active {
+    @apply text-[#002E6D] cursor-pointer font-bold underline;
+  }
+
+  .navbar_heading .inactive {
+    @apply text-gray-600 font-normal cursor-not-allowed;
   }
 
   .container {

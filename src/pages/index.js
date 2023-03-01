@@ -22,11 +22,11 @@ export default function Home() {
       </Head>
       <main className="main__body">
         <div className="container">
-        <Navbar />
-        <div className="mt-10 text-black">NextJS</div>
+          <Navbar />
+          <div className="mt-10 text-black">NextJS</div>
         </div>
 
-
+        <div className="h-[1000px]">gg</div>
 
       </main>
     </>
