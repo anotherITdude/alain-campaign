@@ -4,15 +4,11 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
 import { useRouter } from 'next/router'
-import Navbar from '../components/navbar';
-
+import Navbarar from '../components/navbarar';
 
 
 function Ar() {
 
-    const { router, pathname } = useRouter();
-
-    console.log('this is the path ' + pathname)
     return (
         <>
             <>
@@ -24,7 +20,7 @@ function Ar() {
                 </Head>
                 <main className="main__body">
                     <div className="container">
-                        <Navbar />
+                        <Navbarar  />
                         <div className="mt-10 text-black">NextJS Arabic</div>
                     </div>
 
