@@ -73,7 +73,12 @@
 
   .container {
     @apply  max-w-[1100px] float-none mx-auto
-    sm:w-full;
+    sm:w-full shadow-white
+  }
+
+  .section__heading {
+    @apply uppercase text-white font-din  pt-10 pl-10
+     text-3xl md:text-[2.6rem]  leading-[1]
   }
 
 

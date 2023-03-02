@@ -23,6 +23,7 @@ function Ar() {
                     <div className="container">
                         <Navbarar />
                         <Heroar />
+                        
                     </div>
                     <div className="h-[1000px]"></div>
 

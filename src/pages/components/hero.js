@@ -8,7 +8,7 @@ import { motion } from "framer-motion"
 function Hero() {
     return (
         <div>
-            <div class="flex flex-col md:flex-row">
+            <div class="flex flex-col md:flex-row ">
                 <div class="md:h-[600px] md:basis-55 relative rounded-tl-2xl  md:rounded-tl-[2.5rem]
                 bg-gradient-to-tr from-[#191919]/20 via-[#191919]/70 to-[#191919] ">
                     <div className="flex justify-between items-center">

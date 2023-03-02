@@ -6,6 +6,11 @@ import styles from '@/styles/Home.module.css'
 import { useRouter } from 'next/router'
 import Navbar from './components/navbar'
 import Hero from './components/hero';
+import Slider from './components/slider';
+import Steps from './components/steps';
+import Video from './components/video'
+import Footer from './components/footer';
+
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -25,9 +30,13 @@ export default function Home() {
         <div className="container">
           <Navbar />
           <Hero />
+          <Slider />
+          <Steps />
+          <Video />
+          <Footer />
         </div>
 
-        <div className="h-[1000px]"></div>
+
 
       </main>
     </>
