@@ -49,18 +49,18 @@
 
   .navbar_heading ul {
     @apply flex items-center justify-center 
-    w-[80px] bg-white rounded-full pl-2 pt-1 pb-1 shadow-xl
+    w-[80px] bg-white rounded-full pt-1 pb-1 shadow-xl
   }
 
   .navbar_heading li {
-    @apply mr-1 ml-1 cursor-pointer font-high-voltage text-lg space-x-44
+    @apply mr-1 ml-1 cursor-pointer font-high-voltage text-lg tracking-tighter
 
     
      
   }
 
   .navbar_heading .divider {
-    @apply text-sm ;
+    @apply text-xs ;
   }
 
   .navbar_heading .active {

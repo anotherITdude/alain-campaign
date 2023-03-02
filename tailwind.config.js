@@ -20,6 +20,12 @@ module.exports = {
         '40': '40%',
         '55': '55%',
         '45': '45%',
+      },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-.5deg)' },
+          '50%': { transform: 'rotate(.5deg)' },
+        }
       }
     },
     fontFamily: {
