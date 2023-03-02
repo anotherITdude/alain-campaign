@@ -101,7 +101,7 @@ function Hero() {
                             <Image className="
                             ml-[80%] mt-[-10%]
                             md:ml-[75.5%] md:mt-[-5%]
-                            hover:animate-[wiggle_1s_ease-in-out_infinite]
+                            animate-[wiggle_1s_ease-in-out_infinite]
                             " src={hero} alt="al ain logo"></Image>
                         </motion.div>
                     </div>
