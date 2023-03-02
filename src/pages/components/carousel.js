@@ -35,7 +35,7 @@ function Carousel() {
 
         <div>
           <h2> Single Item</h2>
-          <Slider {...settings}>
+          {/* <Slider {...settings}>
             <div className="slide_item">
               <h3>1</h3>
             </div>
@@ -57,7 +57,7 @@ function Carousel() {
             <div className="slide_item">
               <h3>7</h3>
             </div>
-          </Slider>
+          </Slider> */}
         </div>
       </div>
     </div>
