@@ -44,7 +44,7 @@ function Hero() {
                                 className="pl-1"> &nbsp;THE BAG</motion.p>
 
                         </div>
-                        <div className="font-high-voltage uppercase
+                        <div className="font-din uppercase
                     text-sm md:text-xl text-white tracking-wider
                     mt-5 ml-5 md:mt-6 md:ml-10">
                             <motion.p

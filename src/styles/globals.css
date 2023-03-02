@@ -35,7 +35,11 @@
   src: url("../Fonts/HighVoltage\ Rough.otf");
 }
 
-
+.slick-center{
+   background-color: brown;
+   width:200px;
+   height:200px
+}
 
 @layer components {
   body {
@@ -80,6 +84,10 @@
     @apply uppercase text-white font-din  pt-10 pl-5 md:pl-10
      text-3xl md:text-[2.6rem]  leading-[1]
   }
+
+  /* hero section */
+
+   /* hero section */
 
 
   
