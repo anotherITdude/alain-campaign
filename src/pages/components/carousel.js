@@ -36,19 +36,27 @@ function Carousel() {
         <div>
           <h2> Single Item</h2>
           <Slider {...settings}>
-            <div  className="slide_item">
+            <div className="slide_item">
               <h3>1</h3>
             </div>
-            <div  className="slide_item">
-              <h3>1</h3>
+            <div className="slide_item">
+              <h3>2</h3>
             </div>
-            <div  className="slide_item">
-              <h3>1</h3>
+            <div className="slide_item">
+              <h3>3</h3>
             </div>
-            <div  className="slide_item">
-              <h3>1</h3>
+            <div className="slide_item">
+              <h3>4</h3>
             </div>
-            
+            <div className="slide_item">
+              <h3>5</h3>
+            </div>
+            <div className="slide_item">
+              <h3>6</h3>
+            </div>
+            <div className="slide_item">
+              <h3>7</h3>
+            </div>
           </Slider>
         </div>
       </div>
