@@ -22,6 +22,13 @@ module.exports = {
         '45': '45%',
       }
     },
+    fontFamily: {
+      'din': ['din'],
+      'gotham-bold': ['gotham-bold'],
+      'gotham-book': ['gotham-book'],
+      'gotham-light': ['gotham-light'],
+      'high-voltage': ['high-voltage'],
+    }
   },
   plugins: [],
 }

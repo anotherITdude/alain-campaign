@@ -6,26 +6,61 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "din";
+  src: url('../Fonts/D-DINCondensed-Bold_0.otf');
+}
+@font-face {
+  font-family: "gotham-bold";
+  src: url("../Fonts/Gotham-Bold_6.otf");
+}
+
+@font-face{
+  font-family:"gotham-book";
+  src:"../Fonts/Gotham-Book_C.otf"
+}
+
+@font-face {
+  font-family: "gotham-light";
+  src: url("../Fonts/Gotham-Light_4.otf");
+}
+
+@font-face {
+  font-family: "gotham-medium";
+  src: url("../Fonts/Gotham-Medium_5.otf");
+}
+
+@font-face {
+  font-family: "high-voltage";
+  src: url("../Fonts/HighVoltage\ Rough.otf");
+}
+
+
+
 @layer components {
   body {
-    @apply bg-[#383838];
+    @apply bg-[#383838]; 
+   
   }
 
   .navbar_heading {
-    @apply flex h-[60px] w-full items-center;
+    @apply flex h-[60px] w-full items-center 
   }
 
   .navbar_heading ul {
-    @apply flex items-center justify-center text-base
+    @apply flex items-center justify-center 
     w-[80px] bg-white rounded-full pl-2 pt-1 pb-1 shadow-xl
   }
 
   .navbar_heading li {
-    @apply mr-2 cursor-pointer;
+    @apply mr-1 ml-1 cursor-pointer font-high-voltage text-lg space-x-44
+
+    
+     
   }
 
   .navbar_heading .divider {
-    @apply text-sm pb-[2px];
+    @apply text-sm ;
   }
 
   .navbar_heading .active {
@@ -41,26 +76,6 @@
     sm:w-full;
   }
 
-  .hero__buttons {
-    @apply px-5 py-2 border border-[#242424] rounded-full 
-    uppercase text-xs tracking-widest text-gray-500 
-    transition-all hover:border-[#f7ab0a]/40 hover:text-[#f7ab0a]/40;
-  }
 
-  .body__heading {
-    @apply absolute text-gray-500 text-2xl mb-20  z-20 w-screen text-center
-      top-[10%] uppercase tracking-[10px]
-      md:tracking-[30px] md:top-28;
-  }
-
-  .body__main {
-    @apply h-screen flex flex-col relative text-center max-w-7xl px-10
-      md:text-left md:flex-row  md:justify-between mx-auto items-center;
-  }
-
-  .contactInput {
-    @apply outline-none bg-slate-400/10 rounded-sm border-b 
-    px-6 py-4 border-[#242424] text-gray-500 placeholder-gray-500 transition-all
-    focus:border-[#F7AB0A]/40 focus:text-[#F7AB0A]/40;
-  }
+  
 }
