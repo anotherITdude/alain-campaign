@@ -8,16 +8,16 @@
 
 @font-face {
   font-family: "din";
-  src: url('../Fonts/D-DINCondensed-Bold_0.otf');
+  src: url("../Fonts/D-DINCondensed-Bold_0.otf");
 }
 @font-face {
   font-family: "gotham-bold";
   src: url("../Fonts/Gotham-Bold_6.otf");
 }
 
-@font-face{
-  font-family:"gotham-book";
-  src:"../Fonts/Gotham-Book_C.otf"
+@font-face {
+  font-family: "gotham-book";
+  src: "../Fonts/Gotham-Book_C.otf";
 }
 
 @font-face {
@@ -35,36 +35,31 @@
   src: url("../Fonts/HighVoltage\ Rough.otf");
 }
 
-.slick-center{
-   background-color: brown;
-   width:200px;
-   height:200px
+.alice-carousel__dots-item __active {
+  width: 10px !important;
+  height: 10px !important;
 }
 
 @layer components {
   body {
-    @apply bg-[#383838]; 
-   
+    @apply bg-[#383838];
   }
 
   .navbar_heading {
-    @apply flex h-[60px] w-full items-center 
+    @apply flex h-[60px] w-full items-center;
   }
 
   .navbar_heading ul {
     @apply flex items-center justify-center 
-    w-[80px] bg-white rounded-full pt-1 pb-1 shadow-xl
+    w-[80px] bg-white rounded-full pt-1 pb-1 shadow-xl;
   }
 
   .navbar_heading li {
-    @apply mr-1 ml-1 cursor-pointer font-high-voltage text-lg tracking-tighter
-
-    
-     
+    @apply mr-1 ml-1 cursor-pointer font-high-voltage text-lg tracking-tighter;
   }
 
   .navbar_heading .divider {
-    @apply text-xs ;
+    @apply text-xs;
   }
 
   .navbar_heading .active {
@@ -76,19 +71,16 @@
   }
 
   .container {
-    @apply  max-w-[1100px] float-none mx-auto
-    sm:w-full shadow-white
+    @apply max-w-[1100px] float-none mx-auto
+    sm:w-full shadow-white;
   }
 
   .section__heading {
     @apply uppercase text-white font-din  pt-10 pl-5 md:pl-10
-     text-3xl md:text-[2.6rem]  leading-[1]
+     text-3xl md:text-[2.6rem]  leading-[1];
   }
 
   /* hero section */
 
-   /* hero section */
-
-
-  
+  /* hero section */
 }
