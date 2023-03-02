@@ -48,16 +48,17 @@ function Hero() {
                     text-sm md:text-xl text-white tracking-wider
                     mt-5 ml-5 md:mt-6 md:ml-10">
                             <motion.p
-                                initial={{ opacity: 0, x: -20 }}
-                                whileInView={{ opacity: 1, x: 0 }}
-                                transition={{ duration: 1 }}
+                                initial={{ opacity: 0, }}
+                                whileInView={{ opacity: 1 }}
+                                transition={{ duration: 2, type: "spring", stiffness: 100 }}
                             > <span className="text-xl md:text-2xl">IN</span> GOES THE BAG
                             </motion.p>
 
                             <motion.p
-                                initial={{ opacity: 0, x: 20 }}
-                                whileInView={{ opacity: 1, x: 0 }}
-                                transition={{ duration: 1 }} >
+                                initial={{ opacity: 0 }}
+                                whileInView={{ opacity: 1 }}
+                                transition={{ duration: 2, type: "spring", stiffness: 100 }}
+                            >
                                 <span className="text-xl md:text-2xl">OUT</span> COMES THE COOKED CHICKEN!
                             </motion.p>
 
@@ -66,7 +67,7 @@ function Hero() {
                         <motion.div
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
-                            transition={{ duration: 2 }}
+                            transition={{ duration: 2, type: "spring", stiffness: 100 }}
                             className="font-gotham-light
                     text-xs md:text-sm text-white tracking-wider
                     mt-5 ml-10 md:mt-6 md:ml-10
@@ -82,8 +83,7 @@ function Hero() {
                         <motion.div
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
-                            transition={{ duration: 1 }}
-                            className="block md:hidden 
+                            transition={{ duration: 2, type: "spring", stiffness: 100 }} className="block md:hidden 
                         text-xs text-white tracking-wider spacing-y-6
                         text-center
                         pt-5 pb-5 pl-16 pr-16
@@ -95,7 +95,7 @@ function Hero() {
                         <motion.div
                             initial={{ opacity: 0, x: 200 }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 1, type: "spring", stiffness: 100 }}
+                            transition={{ duration: 2, type: "spring", stiffness: 100 }}
                             className="absolute overflow-x-visible 
                             w-[50%] md:w-[98%]">
                             <Image className="
@@ -112,7 +112,11 @@ function Hero() {
                 <div class="
                 rounded-none  md:rounded-tr-[2.5rem] z-
                 md:basis-45 bg-gradient-to-r from-[#ec6558]/90 via-[#ec6558]/75 to-[#ec6558]">
-                    <div className="
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ duration: 2, type: "spring", stiffness: 100 }}
+                        className="
                     flex md:flex-col  p-3 md:pt-10 md:pr-8
                     font-high-voltage uppercase 
                     text-3xl md:text-5xl  text-white md:text-right
@@ -121,7 +125,7 @@ function Hero() {
                         <p> CHEF-STYLE</p>
                         <p> &nbsp;CHICKEN,</p>
                         <p> &nbsp;AT HOME!</p>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
         </div>
