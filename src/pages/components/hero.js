@@ -93,9 +93,9 @@ function Hero() {
                         </motion.div>
 
                         <motion.div
-                            initial={{ opacity: 0, y: -100 }}
+                            initial={{ opacity: 0, y: -60 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 2, type: "spring", stiffness: 100 }}
+                            transition={{ duration: 1.5, type: "spring", stiffness: 80 }}
                             className="absolute overflow-x-visible 
                             w-[50%] md:w-[98%]">
                             <Image className="
@@ -110,6 +110,7 @@ function Hero() {
 
                 </div>
                 <div className="
+                hidden md:block 
                 rounded-none  md:rounded-tr-[2.5rem] z-
                 md:basis-45 bg-gradient-to-r from-[#ec6558]/90 via-[#ec6558]/75 to-[#ec6558]">
                     <motion.div
@@ -117,7 +118,7 @@ function Hero() {
                         whileInView={{ opacity: 1 }}
                         transition={{ duration: 2, type: "spring", stiffness: 100 }}
                         className="
-                    flex md:flex-col  p-3 md:pt-10 md:pr-8
+                    flex flex-row md:flex-col  p-5 md:pt-10 md:pr-8
                     font-high-voltage uppercase 
                     text-3xl md:text-5xl  text-white md:text-right
                     justify-center
@@ -127,6 +128,21 @@ function Hero() {
                         <p> &nbsp;AT HOME!</p>
                     </motion.div>
                 </div>
+
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 2, type: "spring", stiffness: 100 }} className="
+                        block md:hidden 
+                      text-white tracking-wider spacing-y-6
+                        font-high-voltage uppercase 
+                        md:basis-45 bg-gradient-to-r from-[#ec6558]/90 via-[#ec6558]/75 to-[#ec6558]
+                        text-3xl md:text-5xl text-center
+                        pt-3 pb-3 pl-16 pr-16
+                        ">
+                    <p> CHEF-STYLE CHICKEN</p>
+                    <p> AT HOME</p>
+                </motion.div>
             </div>
         </div>
     )
