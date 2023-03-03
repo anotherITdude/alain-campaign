@@ -35,6 +35,7 @@
   src: url("../Fonts/HighVoltage\ Rough.otf");
 }
 
+
 .alice-carousel__dots-item __active {
   width: 10px !important;
   height: 10px !important;
@@ -42,7 +43,7 @@
 
 @layer components {
   body {
-    @apply bg-[#383838];
+    @apply bg-[#383838] overflow-x-hidden overflow-y-scroll
   }
 
   .navbar_heading {

@@ -93,7 +93,7 @@ function Hero() {
                         </motion.div>
 
                         <motion.div
-                            initial={{ opacity: 0, y: -200 }}
+                            initial={{ opacity: 0, y: -100 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 2, type: "spring", stiffness: 100 }}
                             className="absolute overflow-x-visible 

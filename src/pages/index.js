@@ -6,7 +6,6 @@ import styles from '@/styles/Home.module.css'
 import { useRouter } from 'next/router'
 import Navbar from './components/navbar'
 import Hero from './components/hero';
-import Carousel from './components/carousel';
 import Steps from './components/steps';
 import Video from './components/video'
 import Footer from './components/footer';
@@ -30,7 +29,6 @@ export default function Home() {
         <div className="container">
           <Navbar />
           <Hero />
-          <Carousel />
           <Steps />
           <Video />
           <Footer />
