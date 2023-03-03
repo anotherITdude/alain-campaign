@@ -8,8 +8,8 @@ import { motion } from "framer-motion"
 function Hero() {
     return (
         <div>
-            <div class="flex flex-col md:flex-row ">
-                <div class="md:h-[600px] md:basis-55 relative rounded-tl-2xl  md:rounded-tl-[2.5rem]
+            <div className="flex flex-col md:flex-row ">
+                <div className="md:h-[600px] md:basis-55 relative rounded-tl-2xl  md:rounded-tl-[2.5rem]
                 bg-gradient-to-tr from-[#191919]/20 via-[#191919]/70 to-[#191919] ">
                     <div className="flex justify-between items-center">
                         <motion.div
@@ -33,13 +33,13 @@ function Hero() {
                     text-3xl md:text-8xl text-white 
                     mt-5 ml-5 md:mt-6 md:ml-10">
                             <motion.p
-                                initial={{ opacity: 0, x: -20 }}
-                                whileInView={{ opacity: 1, x: 0 }}
+                                initial={{ opacity: 0, y: -20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 1 }}
                             > COOK IN</motion.p>
                             <motion.p
-                                initial={{ opacity: 0, x: 20 }}
-                                whileInView={{ opacity: 1, x: 0 }}
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 1 }}
                                 className="pl-1"> &nbsp;THE BAG</motion.p>
 
@@ -109,7 +109,7 @@ function Hero() {
 
 
                 </div>
-                <div class="
+                <div className="
                 rounded-none  md:rounded-tr-[2.5rem] z-
                 md:basis-45 bg-gradient-to-r from-[#ec6558]/90 via-[#ec6558]/75 to-[#ec6558]">
                     <motion.div

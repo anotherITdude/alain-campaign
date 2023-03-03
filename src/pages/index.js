@@ -15,8 +15,7 @@ import Footer from './components/footer';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  const { router, pathname } = useRouter();
-  console.log(router)
+
   return (
     <>
       <Head >
