@@ -8,7 +8,7 @@ import Hero from './components/hero';
 import Steps from './components/steps';
 import Video from './components/video'
 import Footer from './components/footer';
-import Slider from './components/slider'
+//import Slider from './components/slider'
 
 
 
@@ -28,7 +28,7 @@ export default function Home() {
         <div className="container">
           <Navbar />
           <Hero />
-          <Slider />
+          {/* <Slider /> */}
           <Steps />
           <Video />
           <Footer />

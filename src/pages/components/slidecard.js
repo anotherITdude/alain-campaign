@@ -11,7 +11,7 @@ function Slidecard(props){
     const swiperSlide = useSwiperSlide();
     return (
         <div className='testing'>
-            {swiperSlide.isActive ?
+            {/* {swiperSlide.isActive ?
                 <div className="text-center text-white font-gotham-bold">
                 <p className=" uppercase mt-[-22px]">
                     {props.slide.title}
@@ -30,7 +30,7 @@ function Slidecard(props){
                 </div>
                 </div>
             </div>
-            }
+            } */}
         </div>
     );
 }

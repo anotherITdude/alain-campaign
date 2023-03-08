@@ -13,7 +13,7 @@ import "swiper/css/pagination";
 function Slider() {
   return (
     <div>
-      <div className=" z-10 bg-gradient-to-r from-[#191919]/40 via-[#191919]/5 to-[#191919]/40">
+      {/* <div className=" z-10 bg-gradient-to-r from-[#191919]/40 via-[#191919]/5 to-[#191919]/40">
         <div className="section__heading pb-4">
           <motion.p
             initial={{ opacity: 0, y: -20 }}
@@ -56,7 +56,7 @@ function Slider() {
             ))}
           </Swiper>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
