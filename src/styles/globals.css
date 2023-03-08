@@ -122,4 +122,61 @@
 
   /* how  to cook */
 
+
+  /* footer */
+  .footer__left {
+    @apply relative  md:pb-10
+  } 
+  .footer__right{
+    @apply text-white flex flex-row md:flex-col 
+    justify-evenly md:justify-center 
+    items-center 
+    pl-0 pt-3 pb-3 md:pt-0 md:pb-0 md:pl-40
+  }
+  .footer__left__bg {
+    @apply  w-full md:w-[70%] overflow-x-visible relative 
+    rounded-none rounded-bl-2xl  md:rounded-bl-[2.5rem]
+    bg-gradient-to-tr from-[#191919]/20 via-[#191919]/70 to-[#191919]
+  }
+
+  .footer__right__bg {
+    @apply w-full md:w-[30%]  overflow-x-visible 
+    rounded-none  md:rounded-br-[2.5rem]
+    md:basis-45 bg-gradient-to-r from-[#ec6558]/90 via-[#ec6558]/75 to-[#ec6558]
+  }
+
+  .social__bg__image{
+    @apply  mt-4 mb-4 md:mt-10 relative ml-8 w-[85%] md:min-w-[120%]
+  }
+
+.social__handles {
+  @apply flex  flex-row md:flex-col
+  justify-evenly
+}
+  .social__handles div {
+    @apply text-white font-gotham-book text-xl 
+    mb-0 md:mb-14 hover:cursor-pointer
+  
+  }
+
+  .social__handles span {
+    @apply hidden md:block
+  }
+
+
+  .social__bg__image{
+   
+  }
+
+  .social__icon {
+    @apply flex justify-start items-end
+  }
+
+  .social__icon img {
+    @apply w-[40px] mr-2
+  }
+
+  
+  /* footer */
+
 }
