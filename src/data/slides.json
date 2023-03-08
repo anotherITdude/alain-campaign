@@ -1,0 +1,38 @@
+[
+    {
+        "slideId": 1,
+        "title": "Peri Peri",
+        "img":"/peri_peri.png",
+        "weight": "450g",
+        "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+        "slideId": 2,
+        "title": "Garlic Pepper",
+        "img":"/garlic_pepper.png",
+        "weight": "450g",
+        "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+        "slideId": 3,
+        "title": "Mediterranean",
+        "img":"/mediterranean.png",
+        "weight": "500g",
+        "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+        "slideId": 4,
+        "title": "Smoked BBQ",
+        "img":"/smoked_bbq.png",
+        "weight": "500g",
+        "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+        "slideId": 5,
+        "title": "Teriyaki",
+        "img":"/teriyaki.png",
+        "weight": "450g",
+        "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    }
+]
+
