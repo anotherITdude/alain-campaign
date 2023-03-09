@@ -13,7 +13,7 @@ import Link from 'next/link'
 function Footer() {
   return (
     <div>
-        <div className="flex flex-col md:flex-row " >
+        <div className="flex flex-col md:flex-row mb-[50px]" >
             <div className="footer__left footer__left__bg">
             <div className="section__heading">
                         <motion.p
