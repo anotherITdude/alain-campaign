@@ -28,7 +28,7 @@ function Footer() {
                         >meals on social media and tag us!</motion.p>
                     </div>
             <div className="image__bg">
-            <Image className="social__bg__image" src={SocialMediaBg} />
+            <Image className="social__bg__image" alt="social media bg" priority="blur" src={SocialMediaBg} />
             </div>
             </div>
 
@@ -36,16 +36,16 @@ function Footer() {
                   <div className="social__handles">
                       <div className="social__icon">
                      
-                    <Link target="_blank" href="https://www.facebook.com"> <Image src={facebook} alt='facebook' /></Link>
-                          <Link target="_blank" href="https://www.facebook.com">  <span> AlAinFarms</span></Link>
+                    <Link target="_blank" href="https://www.facebook.com/AlAinFarms/"> <Image src={facebook} alt='facebook' /></Link>
+                          <Link target="_blank" href="https://www.facebook.com/AlAinFarms/">  <span> AlAinFarms</span></Link>
                      </div>
                   <div className="social__icon">
-                  <Link target="_blank" href="https://www.instagram.com"><Image src={instagram} alt='facebook' /> </Link>
-                  <Link target="_blank" href="https://www.instagram.com"><span> ainfarms</span></Link>
+                  <Link target="_blank" href="https://www.instagram.com/alainfarms/"><Image src={instagram} alt='facebook' /> </Link>
+                  <Link target="_blank" href="https://www.instagram.com/alainfarms/"><span> ainfarms</span></Link>
                     </div>
                   <div className="social__icon">
-                  <Link target="_blank" href="https://www.tiktok.com/"><Image src={tiktok} alt='facebook' />  </Link>       
-                  <Link  target="_blank" href="https://www.tiktok.com/"><span>alain.farms</span></Link>
+                  <Link target="_blank" href="https://www.tiktok.com/@alain.farms"><Image src={tiktok} alt='facebook' />  </Link>       
+                  <Link  target="_blank" href="https://www.tiktok.com/@alain.farms"><span>alain.farms</span></Link>
                     </div>
                   </div>
 

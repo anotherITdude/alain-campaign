@@ -42,6 +42,7 @@ function Video() {
               <Image
                 className="howtocook_bg"
                 src={cook}
+                priority="blur"
                 alt="how to cook"
               ></Image>
             </motion.div>
@@ -50,12 +51,12 @@ function Video() {
 
           ">
             <div className="cooking_video">
-            <Image  className="rounded-3xl" src={cook_thumb} />        
+            <Image priority="blur"  className="rounded-3xl" src={cook_thumb} alt="how to cook" />        
             <p className="font-gotham-light text-lg text-white pt-3">How to Cook a Whole Chicken</p>
             </div>
             
             <div className="cooking_video">
-            <Image  className="rounded-3xl" src={cook_thumb} />        
+            <Image priority="blur" className="rounded-3xl" src={cook_thumb} alt="how to cook" />        
             <p className="font-gotham-light text-lg text-white pt-3">How to Cook a Whole Chicken</p>
             </div>
 

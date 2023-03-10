@@ -17,14 +17,14 @@ function Hero() {
                             whileInView={{ opacity: 1 }}
                             transition={{ duration: 1 }}
                             className="logo w-[100px] md:w-[180px]">
-                            <Image src={logo} alt="al ain logo"></Image>
+                            <Image priority="blur" src={logo} alt="al ain logo"></Image>
                         </motion.div>
                         <motion.div
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
                             transition={{ duration: 1, type: "spring", stiffness: 500 }}
                             className="logo w-[110px] md:w-[140px]">
-                            <Image src={flag} alt="al ain logo"></Image>
+                            <Image priority="blur" src={flag} alt="al ain logo"></Image>
                         </motion.div>
                     </div>
 
@@ -102,7 +102,7 @@ function Hero() {
                             ml-[80%] mt-[-10%]
                             md:ml-[75.5%] md:mt-[-5%]
                             animate-[wiggle_1s_ease-in-out_infinite]
-                            " src={hero} alt="al ain logo"></Image>
+                            " src={hero} priority="blur" alt="al ain logo"></Image>
                         </motion.div>
                     </div>
 
