@@ -86,7 +86,7 @@ function Hero() {
                             transition={{ duration: 2, type: "spring", stiffness: 100 }} className="block md:hidden 
                         text-xs text-white tracking-wider spacing-y-6
                         text-left
-                        pt-5 pb-5 pl-16 pr-16
+                        pt-5 pb-5 pl-6 pr-16
                         ">
                             <p> Cook in The Bag is the simplest way to make chef-style chicken at home.</p>
                             <p className="mt-1"> Enjoy marinated chicken thats 100% fresh, 100% delicious!</p>
@@ -138,7 +138,7 @@ function Hero() {
                         font-high-voltage uppercase 
                         md:basis-45 bg-gradient-to-r from-[#ec6558]/90 via-[#ec6558]/75 to-[#ec6558]
                         text-3xl md:text-5xl text-left
-                        pt-3 pb-3 pl-16 pr-16
+                        pt-3 pb-3 pl-6 pr-16
                         ">
                     <p> CHEF-STYLE CHICKEN</p>
                     <p> AT HOME</p>
