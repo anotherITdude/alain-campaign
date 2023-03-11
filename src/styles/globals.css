@@ -284,5 +284,21 @@
   }
 
   /* cooking steps */
+  .slick-center, .slick-current {
+    @apply bg-red-600
+  }
 
+  .mySwiper {
+      @apply  h-[300px] text-black
+      flex  justify-center items-center text-center
+      border border-teal-300
+      w-auto min-w-[300px] md:w-auto
+
+      border border-teal-400
+  }
+
+  
+
+ 
+ 
 }
