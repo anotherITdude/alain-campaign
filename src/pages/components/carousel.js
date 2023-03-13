@@ -27,7 +27,11 @@ import 'swiper/css/pagination';
 // }
 
 function Carousel() {
-  
+  // const myMouseOver = document.getElementById('1');
+  // myMouseOver.addEventListener("mouseover", hover);
+  //  function hover() {
+  //   myMouseOver.dispatchEvent(mouseoverEvent);
+  // }
   return (
     <div>
       <div className=" z-10 bg-gradient-to-r from-[#191919]/40 via-[#191919]/5 to-[#191919]/40">
@@ -76,8 +80,8 @@ function Carousel() {
             {slides.map((slide, index) => (
               
               <SwiperSlide key={slide.slideId}>
-                <Link href={`#${slide.link}`}>
-                <div className="slide__area group duration-500 ease-in-out">
+                <Link href='#cook' >
+                <div id={slide.slideId} className="slide__area group duration-500 ease-in-out">
                   <p className="slide__heading block md:invisible md:group-hover:visible">{slide.title}</p>
                   <p className="slide__weight block md:invisible md:group-hover:visible">{slide.weight}</p>
                   <Image priority="blur" className="image group-hover:scale-110" src={slide.img} width={250} height={180} alt={slide.title} />

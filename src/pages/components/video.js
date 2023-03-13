@@ -11,7 +11,7 @@ function Video() {
         className=" z-10 md:overflow-hidden
     bg-gradient-to-t from-[#191919] via-[#191919]/40 to-[#191919]/10"
       >
-        <div className="flex 
+        <div id="cook" className="flex 
         flex-col
         md:flex-row
         justify-center   
