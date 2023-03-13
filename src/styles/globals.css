@@ -164,8 +164,9 @@
     animate-[wiggle_1s_ease-in-out_infinite]
   }
   .cooking_video {
-    @apply  max-w-[80%] md:max-w-[95%] lg:max-w-[80%] 
+    @apply  max-w-[85%] md:w-[430px] md:max-w-[90%] 
     ml-6 md:ml-0 lg:ml-8 mb-6
+   
   }
 
   /* how  to cook */
@@ -334,7 +335,6 @@
   /* cooking steps */
  
 
-  
 
   
 

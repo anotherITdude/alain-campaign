@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import cook from "../../../public/Cooked-Whole-Chicken.png";
 import cook_thumb from "../../../public/cook-thumbnail.jpg"
 import Image from "next/image";
+import YoutubeEmbed from "../components/youtubeEmbed";
+
 
 function Video() {
   return (
@@ -51,13 +53,14 @@ function Video() {
 
           ">
             <div className="cooking_video" id="onekg">
-            <Image priority="blur"  className="rounded-3xl" src={cook_thumb} alt="how to cook" />        
-            <p className="font-gotham-light text-lg text-white pt-3">How to Cook a Whole Chicken</p>
+            <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
+
+              <p className="font-gotham-light text-lg text-white pt-3">How to Cook a Whole Chicken</p>
             </div>
-            
+
             <div className="cooking_video" id="halfkg">
-            <Image priority="blur" className="rounded-3xl" src={cook_thumb} alt="how to cook" />        
-            <p className="font-gotham-light text-lg text-white pt-3">How to Cook a Half Chicken</p>
+              <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
+              <p className="font-gotham-light text-lg text-white pt-3">How to Cook a Half Chicken</p>
             </div>
 
           </div>
