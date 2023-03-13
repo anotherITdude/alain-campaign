@@ -75,15 +75,27 @@
 
   /* hero section */
 
+
+  .mySwiper {
+    @apply min-h-[380px]
+      flex  justify-center items-center text-center
+  }
   .mySwiper .swiper-wrapper {
-    @apply flex justify-center items-center 
-    pt-[2%];
+    @apply pt-[2%]  overflow-visible
   }
 
   .mySwiper .swiper-slide {
-    @apply flex justify-center;
+    @apply flex flex-col  items-center 
   }
-  .mySwiper .swiper-pagination-bullet {
+
+  .mySwiper .slide__area{
+    @apply flex flex-col bg-[#ec6558] rounded-full w-[280px] h-[280px] 
+    items-center mt-[30px]
+  }
+
+ 
+
+   .mySwiper .swiper-pagination-bullet {
     @apply bg-[#797979] transition-all;
   }
 
@@ -97,12 +109,36 @@
 
   .mySwiper .swiper-pagination {
     @apply flex flex-row justify-center items-center
-    mt-[3%] mb-[2%]  relative;
+    mt-[5%] mb-[2%] ;
   }
 
-  .mySwiper .swiper-slide-active {
-    @apply h-[250px]  rounded-[50%] bg-[#ec6558];
+  .mySwiper .image {
+    @apply w-[80%]
   }
+  
+  .mySwiper .slide__heading {
+    @apply font-gotham-bold uppercase text-white text-lg mb-4 mt-[-30px]
+  }
+
+  .mySwiper .slide__weight {
+    @apply font-gotham-bold uppercase text-white mb-2  text-lg
+  }
+
+  .mySwiper .slide__desc {
+    @apply font-gotham-book uppercase text-white mb-4 mt-5 text-sm
+  }
+  
+  .mySwiper .swiper-button-prev {
+    @apply text-white 
+  }
+
+  .mySwiper .swiper-button-next {
+    @apply text-white 
+  }
+/*
+  /* .mySwiper .swiper-slide-active {
+    @apply h-[250px]  rounded-[50%] bg-[#ec6558];
+  } */
 
 
 
@@ -284,18 +320,9 @@
   }
 
   /* cooking steps */
-  .slick-center, .slick-current {
-    @apply bg-red-600
-  }
+ 
 
-  .mySwiper {
-      @apply  h-[300px] text-black
-      flex  justify-center items-center text-center
-      border border-teal-300
-      w-auto min-w-[300px] md:w-auto
-
-      border border-teal-400
-  }
+  
 
   
 

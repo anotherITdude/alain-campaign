@@ -72,8 +72,8 @@ function Steps() {
                         transition={{ duration: 1, delay:1 }}
                         className='steps step__1'>
                         <div className="step1__img">
-                            <Image className="hidden md:block" priority="blur" src={step1} />
-                            <Image className="block md:hidden" priority="blur" src={mstep1} />
+                            <Image className="hidden md:block" alt="cooking step" priority="blur" src={step1} />
+                            <Image className="block md:hidden" alt="cooking step" priority="blur" src={mstep1} />
                         </div>
                         <div className="steps__desc">Pre-heat oven <br/>at 180&#176;C</div>
                         </motion.div>
@@ -84,8 +84,8 @@ function Steps() {
                         transition={{ duration: 1, delay:1.5 }}
                         className='steps step__2'>
                         <div className="step2__img">
-                            <Image className="hidden md:block" priority="blur" src={step2} />
-                            <Image className="block md:hidden" priority="blur" src={mstep2} />
+                            <Image className="hidden md:block" alt="cooking step" priority="blur" src={step2} />
+                            <Image className="block md:hidden" alt="cooking step" priority="blur" src={mstep2} />
                         </div>
                         <div className="steps__desc">Remove the bag from <br/>the box and dispose <br/>of the box</div>
                         </motion.div>
@@ -96,8 +96,8 @@ function Steps() {
                         transition={{ duration: 1, delay:2 }}
                         className='steps step__3'>
                         <div className="step3__img">
-                            <Image className="hidden md:block" priority="blur" src={step3} />
-                            <Image className="block md:hidden" priority="blur" src={mstep3} />
+                            <Image className="hidden md:block" alt="cooking step" priority="blur" src={step3} />
+                            <Image className="block md:hidden" alt="cooking step" priority="blur" src={mstep3} />
                         </div>
                         <div className="steps__desc">Place the bag with <br/>the chicken on a cooking tray <br/>and put it in the oven</div>
                         </motion.div>
@@ -108,8 +108,8 @@ function Steps() {
                         transition={{ duration: 1, delay:2.5 }}
                         className='steps step__4'>
                             <div className="step4__img">
-                                <Image className="hidden md:block" priority="blur" src={step4} />
-                                <Image className="block md:hidden" priority="blur" src={mstep4} />
+                                <Image className="hidden md:block" alt="cooking step" priority="blur" src={step4} />
+                                <Image className="block md:hidden" alt="cooking step" priority="blur" src={mstep4} />
                             </div>
                         <div className="steps__desc">Cook for 45 mins <br/>at 180&#176;C</div>
                         </motion.div>
