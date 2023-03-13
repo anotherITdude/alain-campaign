@@ -124,7 +124,7 @@
 
   .mySwiper .image {
     @apply w-[80%]
-    duration-500 ease-in-out transform hover:scale-110
+    duration-500 ease-in-out transform
   }
   
   .mySwiper .slide__heading {

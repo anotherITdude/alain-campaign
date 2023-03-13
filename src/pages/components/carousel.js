@@ -80,7 +80,7 @@ function Carousel() {
                 <div className="slide__area group duration-500 ease-in-out">
                   <p className="slide__heading block md:invisible md:group-hover:visible">{slide.title}</p>
                   <p className="slide__weight block md:invisible md:group-hover:visible">{slide.weight}</p>
-                  <Image priority="blur" className="image" src={slide.img} width={250} height={180} alt={slide.title} />
+                  <Image priority="blur" className="image group-hover:scale-110" src={slide.img} width={250} height={180} alt={slide.title} />
                   <p className="slide__desc block md:invisible md:group-hover:visible">{slide.body}</p>
                   </div>
                   </Link>
