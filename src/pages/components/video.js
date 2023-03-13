@@ -50,14 +50,14 @@ function Video() {
           <div className="right mt-[5%] items-center
 
           ">
-            <div className="cooking_video">
+            <div className="cooking_video" id="onekg">
             <Image priority="blur"  className="rounded-3xl" src={cook_thumb} alt="how to cook" />        
             <p className="font-gotham-light text-lg text-white pt-3">How to Cook a Whole Chicken</p>
             </div>
             
-            <div className="cooking_video">
+            <div className="cooking_video" id="halfkg">
             <Image priority="blur" className="rounded-3xl" src={cook_thumb} alt="how to cook" />        
-            <p className="font-gotham-light text-lg text-white pt-3">How to Cook a Whole Chicken</p>
+            <p className="font-gotham-light text-lg text-white pt-3">How to Cook a Half Chicken</p>
             </div>
 
           </div>

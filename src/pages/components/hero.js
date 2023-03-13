@@ -30,8 +30,8 @@ function Hero() {
 
                     <div className="flex flex-col">
                         <div className="font-high-voltage uppercase
-                    text-3xl md:text-8xl text-white 
-                    mt-5 ml-5 md:mt-6 md:ml-10">
+                    text-4xl md:text-8xl text-white 
+                    mt-5 ml-5 md:mt-6 md:ml-10 leading-9">
                             <motion.p
                                 initial={{ opacity: 0, y: -20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
@@ -45,19 +45,20 @@ function Hero() {
 
                         </div>
                         <div className="font-din uppercase
-                    text-sm md:text-xl text-white tracking-wider
+                    text-md md:text-xl text-white tracking-wider
                     mt-5 ml-5 md:mt-6 md:ml-10">
                             <motion.p
                                 initial={{ opacity: 0, }}
                                 whileInView={{ opacity: 1 }}
                                 transition={{ duration: 2, type: "spring", stiffness: 100 }}
-                            > <span className="text-xl md:text-2xl">IN</span> GOES THE BAG
+                            > <span className="text-2xl md:text-2xl">IN</span> GOES THE BAG
                             </motion.p>
 
                             <motion.p
                                 initial={{ opacity: 0 }}
                                 whileInView={{ opacity: 1 }}
                                 transition={{ duration: 2, type: "spring", stiffness: 100 }}
+                                className="mt-[-5px]"
                             >
                                 <span className="text-xl md:text-2xl">OUT</span> COMES THE COOKED CHICKEN!
                             </motion.p>
@@ -99,7 +100,7 @@ function Hero() {
                             className="absolute overflow-x-visible 
                             w-[50%] md:w-[98%]">
                             <Image className="
-                            ml-[80%] mt-[-10%]
+                            ml-[75%] mt-[-10%]
                             md:ml-[75.5%] md:mt-[-5%]
                             animate-[wiggle_1s_ease-in-out_infinite]
                             " src={hero} priority="blur" alt="al ain logo"></Image>

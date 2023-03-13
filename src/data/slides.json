@@ -3,36 +3,42 @@
         "slideId": 1,
         "title": "Peri Peri",
         "img":"/peri_peri.png",
-        "weight": "450g",
-        "body": "Half Chicken"
+        "weight": "900g",
+        "body": "Full \n Chicken",
+        "link":"onekg"
     },
     {
         "slideId": 2,
         "title": "Garlic Pepper",
         "img":"/garlic_pepper.png",
-        "weight": "450g",
-        "body": "Half Chicken"
-    },
-    {
-        "slideId": 3,
-        "title": "Mediterranean",
-        "img":"/mediterranean.png",
-        "weight": "500g",
-        "body": "Half Chicken"
+        "weight": "900g",
+        "body": "Full \nChicken",
+        "link":"onekg"
     },
     {
         "slideId": 4,
         "title": "Smoked BBQ",
         "img":"/smoked_bbq.png",
-        "weight": "500g",
-        "body": "Half Chicken"
+        "weight": "900g",
+        "body": "full Chicken",
+        "link":"onekg"
     },
+    {
+        "slideId": 3,
+        "title": "Mediterranean",
+        "img":"/mediterranean.png",
+        "weight": "450g",
+        "body": "Half Chicken",
+        "link":"halfkg"
+    },
+    
     {
         "slideId": 5,
         "title": "Teriyaki",
         "img":"/teriyaki.png",
         "weight": "450g",
-        "body": "Half Chicken"
+        "body": "Half Chicken",
+        "link":"halfkg"
     }
 ]
 

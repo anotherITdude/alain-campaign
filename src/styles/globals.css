@@ -77,21 +77,19 @@
 
 
   .mySwiper {
-    @apply min-h-[380px]
+    @apply min-h-[380px] 
       flex  justify-center items-center text-center
   }
   .mySwiper .swiper-wrapper {
-    @apply pt-[2%]  overflow-visible
+    @apply pt-[2%]
+    
   }
 
   .mySwiper .swiper-slide {
     @apply flex flex-col  items-center 
   }
 
-  .mySwiper .slide__area{
-    @apply flex flex-col bg-[#ec6558] rounded-full w-[280px] h-[280px] 
-    items-center mt-[30px]
-  }
+  
 
  
 
@@ -112,12 +110,26 @@
     mt-[5%] mb-[2%] ;
   }
 
+  .mySwiper .slide__area{
+    @apply flex flex-col  rounded-full w-[280px] h-[280px] 
+    items-center mt-[30px]
+    bg-[#ec6558] 
+    md:bg-[#ec6558]/0  md:hover:bg-[#ec6558] hover:shadow-black hover:md:shadow-2xl  transition-all 
+    duration-500 ease-in-out
+    
+
+  }
+
+
+
   .mySwiper .image {
     @apply w-[80%]
+    duration-500 ease-in-out transform hover:scale-110
   }
   
   .mySwiper .slide__heading {
     @apply font-gotham-bold uppercase text-white text-lg mb-4 mt-[-30px]
+    
   }
 
   .mySwiper .slide__weight {
