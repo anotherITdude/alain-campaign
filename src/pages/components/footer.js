@@ -7,6 +7,7 @@ import instagram from "../../../public/insta.png";
 
 import tiktok from "../../../public/tiktok.png";
 
+import Feed from "react-instagram-authless-feed"
 
 import Link from 'next/link'
 
@@ -41,7 +42,7 @@ function Footer() {
                      </div>
                   <div className="social__icon">
                   <Link target="_blank" href="https://www.instagram.com/alainfarms/"><Image src={instagram} alt='facebook' /> </Link>
-                  <Link target="_blank" href="https://www.instagram.com/alainfarms/"><span> ainfarms</span></Link>
+                  <Link target="_blank" href="https://www.instagram.com/alainfarms/"><span> alinfarms</span></Link>
                     </div>
                   <div className="social__icon">
                   <Link target="_blank" href="https://www.tiktok.com/@alain.farms"><Image src={tiktok} alt='facebook' />  </Link>       
@@ -57,3 +58,6 @@ function Footer() {
 }
 
 export default Footer;
+
+
+

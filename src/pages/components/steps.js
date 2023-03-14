@@ -123,7 +123,7 @@ function Steps() {
                     className="cooking__description">
                     <p>
                         Temperature and timing may vary according to the oven at home. <br />
-                         We recommend using a cooking tray and not placing the bag directly on the grill.<br /> 
+                         We recommend using a cooking tray and not placing the bag directly on the grill.&nbsp;<br /> 
                          Safe for microwave - Adjust cooking timings to 25-30 minutes for the whole chicken and 10-15 minutes for half chicken.
                     </p>
                     </motion.div>
