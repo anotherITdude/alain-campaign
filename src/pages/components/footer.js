@@ -41,11 +41,11 @@ function Footer() {
                           <Link target="_blank" href="https://www.facebook.com/AlAinFarms/">  <span> AlAinFarms</span></Link>
                      </div>
                   <div className="social__icon">
-                  <Link target="_blank" href="https://www.instagram.com/alainfarms/"><Image src={instagram} alt='facebook' /> </Link>
-                  <Link target="_blank" href="https://www.instagram.com/alainfarms/"><span> alinfarms</span></Link>
+                  <Link target="_blank" href="https://www.instagram.com/alainfarms/"><Image src={instagram} alt='instagram' /> </Link>
+                  <Link target="_blank" href="https://www.instagram.com/alainfarms/"><span> alainfarms</span></Link>
                     </div>
                   <div className="social__icon">
-                  <Link target="_blank" href="https://www.tiktok.com/@alain.farms"><Image src={tiktok} alt='facebook' />  </Link>       
+                  <Link target="_blank" href="https://www.tiktok.com/@alain.farms"><Image src={tiktok} alt='tiktok' />  </Link>       
                   <Link  target="_blank" href="https://www.tiktok.com/@alain.farms"><span>alain.farms</span></Link>
                     </div>
                   </div>
