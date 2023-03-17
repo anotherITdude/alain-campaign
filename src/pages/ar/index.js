@@ -6,7 +6,7 @@ import { useRouter } from 'next/router'
 import Navbar from './components/navbar'
 import Hero from './components/hero';
 import Steps from './components/steps';
-// import Video from './components/video'
+import Video from './components/video'
 // import Footer from './components/footer';
 import Carousel from './components/carousel'
 
@@ -28,8 +28,8 @@ function Ar() {
                     <Hero />
                      <Carousel />
                      <Steps />
-                    {/*<Video />
-                    <Footer /> */}
+                    <Video />
+                    {/*<Footer /> */}
                     </div>
                     <div className="h-[1000px]"></div>
 

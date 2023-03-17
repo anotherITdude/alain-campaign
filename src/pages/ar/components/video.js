@@ -19,20 +19,20 @@ function Video() {
         justify-center   
         md:justify-evenly md:items-center ">
           <div className="left">
-            <div className="section__heading">
+            <div className="section__heading_ar">
               <motion.p
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               >
-                Watch
+               شاهد
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               >
-                How to cook!
+               طريقة الطهي!
               </motion.p>
             </div>
             <motion.div
@@ -55,12 +55,12 @@ function Video() {
             <div className="cooking_video" id="onekg">
             <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
 
-              <p className="font-gotham-light text-lg text-white pt-3">How to Cook a Whole Chicken</p>
+              <p className="font-helvetica-neue-arabic-roman text-right text-lg text-white pt-3">طريقة طهي دجاجة كاملة</p>
             </div>
 
             <div className="cooking_video" id="halfkg">
               <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
-              <p className="font-gotham-light text-lg text-white pt-3">How to Cook a Half Chicken</p>
+              <p className="font-helvetica-neue-arabic-bold text-right text-lg text-white pt-3">طريقة طهي نصف دجاجة</p>
             </div>
 
           </div>

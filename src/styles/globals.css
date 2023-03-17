@@ -92,8 +92,10 @@
 
   .section__heading_ar {
     @apply uppercase text-white
+    text-right pt-10 pr-10
+    md:text-left pt-10 pl-5
     font-bebasar-bold  
-    pt-10 pl-5 md:pl-10
+     md:pl-10
      text-3xl md:text-[2.6rem]  leading-[1];
   }
 
@@ -292,16 +294,36 @@
     @apply uppercase text-white font-gotham-bold text-sm
   }
 
-  .steps .steps__desc_ar {
-    @apply uppercase text-white font-helvetica-neue-arabic-bold text-lg
-  }
+  
+
 
   .steps__block .step__1 {
     @apply 
     md:absolute 
-    mt-6 ml-4
+    mt-6 mr-0
     md:mt-[16%] md:left-[7%]
   }
+
+  /* arabic css */
+
+  .steps__block .step__ar {
+    @apply 
+    md:absolute
+    flex  justify-end md:justify-start
+    mt-6 ml-0 
+    md:mt-[16%] md:left-[7%]
+  } 
+
+  
+
+  .steps .steps__desc_ar {
+    @apply uppercase text-white text-right  flex items-center pr-2
+    font-helvetica-neue-arabic-bold text-sm md:text-sm lg:text-lg
+  }
+
+  
+
+  /* arabic css */
 
   .steps__block .step__1 .steps__desc {
     @apply pt-6 md:pt-4
