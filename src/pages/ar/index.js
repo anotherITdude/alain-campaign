@@ -1,11 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
 
 import { useRouter } from 'next/router'
-import Navbarar from '../components/navbarar';
-import Heroar from '../components/heroar'
+import Navbar from './components/navbar'
+import Hero from './components/hero';
+import Steps from './components/steps';
+// import Video from './components/video'
+// import Footer from './components/footer';
+import Carousel from './components/carousel'
 
 
 function Ar() {
@@ -21,9 +24,12 @@ function Ar() {
                 </Head>
                 <main className="main__body">
                     <div className="container">
-                        <Navbarar />
-                        <Heroar />
-                        
+                    <Navbar />
+                    <Hero />
+                     <Carousel />
+                     <Steps />
+                    {/*<Video />
+                    <Footer /> */}
                     </div>
                     <div className="h-[1000px]"></div>
 

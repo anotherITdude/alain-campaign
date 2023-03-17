@@ -27,8 +27,8 @@ export default function Home() {
       <main className="main__body">
         <div className="container">
           <Navbar />
-          <Hero />
-          <Carousel />
+          <Hero  />
+          <Carousel/>
           <Steps />
           <Video />
           <Footer />

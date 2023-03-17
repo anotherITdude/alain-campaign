@@ -18,11 +18,11 @@ function Navbar() {
                 className='mr-2'>
                 <motion.li className="inactive">En  </motion.li>
                 <motion.li className="divider">|</motion.li>
-                <motion.li className="inactive">Ar  </motion.li>
+                {/* <motion.li className="inactive">Ar  </motion.li> */}
 
-                {/* <motion.li whileHover={{ scale: 1.1 }} className="active">
+                <motion.li whileHover={{ scale: 1.1 }} className="active">
                     <Link href="/ar">Ar</Link>
-                </motion.li> */}
+                </motion.li>
             </motion.ul>
 
         </motion.div>

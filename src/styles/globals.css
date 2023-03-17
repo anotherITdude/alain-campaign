@@ -31,6 +31,23 @@
   src: url("../Fonts/HighVoltage\ Rough.otf");
 }
 
+@font-face {
+  font-family: "bebasar-bold";
+  src: url("../Fonts/BebasAR-Bold.otf");
+}
+
+@font-face {
+  font-family: "helvetica-neue-arabic-bold";
+  src: url("../Fonts/helvetica-neue-lt-arabic-75-bold.otf");
+}
+
+@font-face {
+  font-family: "helvetica-neue-arabic-roman";
+  src: url("../Fonts/HelveticaNeueLTArabic-Roman.otf");
+}
+
+
+
 @layer components {
   body {
     @apply bg-[#383838] overflow-x-hidden overflow-y-scroll;
@@ -67,7 +84,16 @@
   }
 
   .section__heading {
-    @apply uppercase text-white font-din  pt-10 pl-5 md:pl-10
+    @apply uppercase text-white 
+    font-din  
+    pt-10 pl-5 md:pl-10
+     text-3xl md:text-[2.6rem]  leading-[1];
+  }
+
+  .section__heading_ar {
+    @apply uppercase text-white
+    font-bebasar-bold  
+    pt-10 pl-5 md:pl-10
      text-3xl md:text-[2.6rem]  leading-[1];
   }
 
@@ -131,13 +157,29 @@
     @apply font-gotham-bold uppercase text-white text-lg mb-4 mt-[-30px]
     
   }
+  .mySwiper .slide__heading_ar {
+    @apply font-helvetica-neue-arabic-roman uppercase text-white 
+    text-lg mb-4 mt-[-30px] 
+  }
 
   .mySwiper .slide__weight {
     @apply font-gotham-bold uppercase text-white mb-2  text-lg
   }
 
+  .mySwiper .slide__weight_ar {
+    @apply font-helvetica-neue-arabic-bold uppercase text-white mb-2  text-lg
+  }
+
   .mySwiper .slide__desc {
     @apply font-gotham-book uppercase text-white mb-4 mt-5 text-sm
+  }
+
+  .mySwiper .slide__desc_ar {
+    @apply font-helvetica-neue-arabic-roman uppercase text-white mb-4 mt-5 text-lg
+  }
+
+  .slide__heading_ar{
+    direction: ltr !important;
   }
   
   .mySwiper .swiper-button-prev {
@@ -250,6 +292,10 @@
     @apply uppercase text-white font-gotham-bold text-sm
   }
 
+  .steps .steps__desc_ar {
+    @apply uppercase text-white font-helvetica-neue-arabic-bold text-lg
+  }
+
   .steps__block .step__1 {
     @apply 
     md:absolute 
@@ -323,6 +369,14 @@
 
   .cooking__description{
     @apply text-white font-gotham-light text-xs 
+    md:mt-[95%] 
+    ml-6 mb-6 pr-9
+    md:ml-6 md:mb-6 md:pr-6
+  }
+
+  .cooking__description_ar{
+    @apply text-[#888] font-helvetica-neue-arabic-roman
+     text-xs text-right
     md:mt-[95%] 
     ml-6 mb-6 pr-9
     md:ml-6 md:mb-6 md:pr-6

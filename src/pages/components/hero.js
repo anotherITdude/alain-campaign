@@ -100,8 +100,8 @@ function Hero() {
                             className="absolute overflow-x-visible 
                             w-[50%] md:w-[98%]">
                             <Image className="
-                            ml-[75%] mt-[-10%]
-                            md:ml-[75.5%] md:mt-[-5%]
+                            ml-[75%] mt-[-20%]
+                            md:ml-[75.5%] md:mt-[-15%]
                             animate-[wiggle_1s_ease-in-out_infinite]
                             " src={hero} priority="blur" alt="al ain logo"></Image>
                         </motion.div>

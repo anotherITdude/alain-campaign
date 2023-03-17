@@ -35,6 +35,9 @@ module.exports = {
     },
     fontFamily: {
       'din': ['din'],
+      'bebasar-bold': ['bebasar-bold'],
+      'helvetica-neue-arabic-bold':['helvetica-neue-arabic-bold'],
+      'helvetica-neue-arabic-roman':['helvetica-neue-arabic-roman'],
       'gotham-bold': ['gotham-bold'],
       'gotham-book': ['gotham-book'],
       'gotham-light': ['gotham-light'],
