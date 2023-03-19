@@ -10,7 +10,7 @@ function Hero() {
     <div>
       <div className="flex flex-col md:flex-row ">
         <div
-          className="md:h-[600px] md:basis-55 relative rounded-tl-2xl  md:rounded-tl-[2.5rem]
+          className="pb-10 md:basis-55 relative rounded-tl-2xl  md:rounded-tl-[2.5rem]
                 bg-gradient-to-tr from-[#191919]/20 via-[#191919]/70 to-[#191919] "
         >
           <div className="flex justify-between items-center">
@@ -42,8 +42,8 @@ function Hero() {
           mr-6 md:mr-[40%]
             ">
             <div
-              className="font-helvetica-neue-arabic-bold uppercase
-                    text-4xl md:text-6xl lg:text-7xl
+              className="font-bebasar-bold uppercase
+                    text-5xl md:text-6xl lg:text-8xl
                  text-white
                     mt-5 ml-5 mb-4
                     md:mt-6 md:ml-10 leading-9 
