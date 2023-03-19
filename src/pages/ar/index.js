@@ -1,8 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
 
-import { useRouter } from 'next/router'
 import Navbar from './components/navbar'
 import Hero from './components/hero';
 import Steps from './components/steps';

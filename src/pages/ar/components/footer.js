@@ -7,7 +7,6 @@ import instagram from "../../../../public/insta.png";
 
 import tiktok from "../../../../public/tiktok.png";
 
-//import Feed from "react-instagram-authless-feed"
 
 import Link from 'next/link'
 

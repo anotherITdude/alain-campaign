@@ -1,6 +1,5 @@
 
 import React from 'react'
-import slides from '../../../data/slides.json'
 import { useSwiperSlide } from 'swiper/react';
 import Image from 'next/image'
 

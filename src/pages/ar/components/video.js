@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import cook from "../../../../public/Cooked-Whole-Chicken.png";
-import cook_thumb from "../../../../public/cook-thumbnail.jpg"
 import Image from "next/image";
 import YoutubeEmbed from "../../components/youtubeEmbed";
 
