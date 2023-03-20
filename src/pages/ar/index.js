@@ -8,7 +8,7 @@ import Footer from './components/footer';
 import Carousel from './components/carousel'
 
 
-function Ar() { 
+function Ar() {
 
     return (
         <>
@@ -21,14 +21,14 @@ function Ar() {
                 </Head>
                 <main className="main__body">
                     <div className="container">
-                    <Navbar />
-                    <Hero />
-                     <Carousel />
-                     <Steps />
-                    <Video />
-                    <Footer />
+                        <Navbar />
+                        <Hero />
+                        <Carousel />
+                        <Steps />
+                        <Video />
+                        <Footer />
                     </div>
-                    
+
 
                 </main>
             </>
