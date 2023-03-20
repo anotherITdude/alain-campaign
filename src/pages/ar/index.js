@@ -8,7 +8,7 @@ import Footer from './components/footer';
 import Carousel from './components/carousel'
 
 
-function Ar() {
+function Ar() { 
 
     return (
         <>
