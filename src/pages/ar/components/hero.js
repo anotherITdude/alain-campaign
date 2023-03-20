@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import logo from "../../../../public/logo.png";
-import flag from "../../../../public/flag.png";
+import flag from "../../../../public/logo_ar.png";
 import hero from "../../../../public/hero.png";
 import { motion } from "framer-motion";
 

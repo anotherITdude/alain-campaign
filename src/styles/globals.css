@@ -452,7 +452,7 @@
   
 
   .cooking__description{
-    @apply text-white font-gotham-light text-xs 
+    @apply text-[#888] font-gotham-light text-xs 
     md:mt-[95%] 
     ml-6 mb-6 pr-9
     md:ml-6 md:mb-6 md:pr-6
