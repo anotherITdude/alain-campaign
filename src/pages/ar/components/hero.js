@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import logo from "../../../../public/logo.png";
 import flag from "../../../../public/logo_ar.png";
-import hero from "../../../../public/hero.png";
+import hero from "../../../../public/hero_ar.png";
 import { motion } from "framer-motion";
 
 function Hero() {
@@ -72,8 +72,8 @@ function Hero() {
               hidden md:block
               font-bebasar-bold uppercase
                     text-md 
-                    md:text-lg md:text-lg 
-                    lg:text-lg lg:text-xl 
+                    md:text-lg 
+                    lg:text-lg
                   text-white tracking-wider
                     mt-5 ml-5
                     md:mt-6 md:ml-10
@@ -141,8 +141,8 @@ function Hero() {
               block md:hidden
               font-bebasar-bold uppercase
                     text-md 
-                    md:text-lg md:text-lg 
-                    lg:text-lg lg:text-xl 
+                    md:text-lg 
+                    lg:text-lg 
                   text-white tracking-wider
                     mt-5 ml-5 text-right
                     pt-1 pb-0 pl-16 pr-6

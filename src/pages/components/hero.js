@@ -74,7 +74,7 @@ function Hero() {
                     mt-5 ml-10 md:mt-6 md:ml-10
                     hidden md:block
                     ">
-                            <p> Cook in The Bag is the simplest&nbsp;</p>
+                            <p> Cook In The Bag is the simplest&nbsp;</p>
                             <p>way to make chef-style chicken at home.</p>
                             <p> Enjoy marinated chicken&nbsp;</p>
                             <p>that is 100% fresh, 100% delicious!</p>
@@ -89,7 +89,7 @@ function Hero() {
                         text-left
                         pt-5 pb-5 pl-6 pr-16
                         ">
-                            <p> Cook in The Bag is the simplest way to make chef-style chicken at home.</p>
+                            <p> Cook In The Bag is the simplest way to make chef-style chicken at home.</p>
                             <p className="mt-1"> Enjoy marinated chicken that is 100% fresh, 100% delicious!</p>
                         </motion.div>
 
