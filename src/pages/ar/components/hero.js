@@ -19,14 +19,14 @@ function Hero() {
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
     transition={{ duration: 1, type: "spring", stiffness: 500 }}
-    className="logo w-[110px] md:w-[140px] block md:hidden">
+    className="logo w-[110px] md:w-[140px] block md:hidden ml-2 md:ml-0">
     <Image priority="blur" src={flag} alt="al ain logo"></Image>
 </motion.div>
 <motion.div
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
     transition={{ duration: 1 }}
-    className="logo w-[100px] md:w-[180px]">
+    className="logo w-[100px] md:w-[180px] ">
     <Image priority="blur" src={logo} alt="al ain logo"></Image>
 </motion.div>
 <motion.div
@@ -46,7 +46,7 @@ function Hero() {
                     text-5xl md:text-6xl lg:text-8xl
                  text-white
                     mt-5 ml-5 mb-4
-                    md:mt-6 md:ml-10 leading-9 
+                    md:mt-6 md:ml-10 leading-12 
                     "
             >
               <motion.p

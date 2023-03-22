@@ -15,7 +15,7 @@ function Footer() {
     <div>
         <div className="flex flex-col md:flex-row mb-0 md:mb-[50px]" >
             <div className="footer__left__ar footer__left__bg__ar ">
-            <div className="section__heading_ar">
+            <div className="section__heading_ar leading-[35px] md:leading-[50px]">
                         <motion.p
                             initial={{ opacity: 0, y: -20 }}
                             whileInView={{ opacity: 1, y: 0 }}

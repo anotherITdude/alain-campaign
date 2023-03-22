@@ -59,7 +59,7 @@ function Video() {
 
             <div className="cooking_video" id="halfkg">
               <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
-              <p className="font-helvetica-neue-arabic-bold text-right text-lg text-white pt-3">طريقة طهي نصف دجاجة</p>
+              <p className="font-helvetica-neue-arabic-roman text-right text-lg text-white pt-3">طريقة طهي نصف دجاجة</p>
             </div>
 
           </div>

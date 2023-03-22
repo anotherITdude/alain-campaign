@@ -23,7 +23,7 @@ function Hero() {
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
                             transition={{ duration: 1, type: "spring", stiffness: 500 }}
-                            className="logo w-[110px] md:w-[140px]">
+                            className="logo w-[110px] md:w-[140px] mr-2 md:mr-0">
                             <Image priority="blur" src={flag} alt="al ain logo"></Image>
                         </motion.div>
                     </div>
