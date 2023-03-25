@@ -147,6 +147,29 @@
     
 
   }
+/* active class */
+  .mySwiper .active {
+    @apply  rounded-full bg-[#ec6558] hover:shadow-black hover:md:shadow-2xl  transition-all 
+    duration-500 ease-in-out
+  }
+
+  .mySwiper .active .slide__heading, 
+  .mySwiper .active .slide__weight,
+  .mySwiper .active .slide__desc
+   {
+    @apply  md:visible 
+  }
+
+  .mySwiper .active .slide__heading_ar, 
+  .mySwiper .active .slide__weight_ar,
+  .mySwiper .active .slide__desc_ar
+   {
+    @apply  md:visible 
+  }
+    .mySwiper .active img{
+    @apply scale-110
+  }
+  /* active class */
 
 
 
