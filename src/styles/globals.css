@@ -167,7 +167,7 @@
     @apply  md:visible 
   }
     .mySwiper .active img{
-    @apply scale-110
+    @apply scale-100
   }
   /* active class */
 
