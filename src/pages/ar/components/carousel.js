@@ -22,15 +22,23 @@ function Carousel() {
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-          >
-            5 نكهات
+          > 
+           <div className='flex justify-end '>
+             <div> نكهات </div>
+             <div>&nbsp;5</div>
+             </div>
+            
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            لذيذة!
+            <div className='flex justify-end '>
+             <div>!</div>
+             <div>لذيذة</div>
+             </div>
+            
           </motion.p>
         </div>
         <div className="swiper__mobile block lg:block pb-5">
@@ -60,7 +68,7 @@ function Carousel() {
             {slides.map((slide, index) => (
 
               <SwiperSlide key={slide.slideId}>
-                <Link href='#cook' >
+                <Link href={slide.link} >
                   <div id={slide.slideId}
                     className={`slide__area  group ${index == 1 && active}`}
                     onMouseEnter={() => setActive(true)}

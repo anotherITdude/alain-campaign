@@ -93,7 +93,7 @@
   .section__heading_ar {
     @apply uppercase text-white
     text-right pt-10 pr-10
-    md:text-left pt-10 pl-5
+    md:text-right pt-10 pl-0 md:pl-5
     font-bebasar-bold  
      md:pl-10
      text-3xl md:text-[2.6rem]  leading-[1];
@@ -246,35 +246,39 @@
   } 
   .footer__right__ar{
     @apply text-white flex flex-row md:flex-col 
-    justify-evenly md:justify-center 
+    justify-evenly 
     items-center 
     pl-0 pt-3 pb-3 md:pt-0 md:pb-0 md:pl-40
   }
   .footer__left__bg__ar {
-    @apply  w-full md:w-[70%] overflow-x-visible relative 
+    @apply  w-full md:w-[40%] overflow-x-visible relative 
     rounded-none rounded-bl-2xl  md:rounded-bl-[2.5rem]
     bg-gradient-to-tr from-[#191919]/20 via-[#191919]/70 to-[#191919]
+    bg-gradient-to-r from-[#ec6558]/90 via-[#ec6558]/75 to-[#ec6558]
   }
 
   .footer__right__bg__ar {
-    @apply w-full md:w-[30%]  overflow-x-visible 
+    @apply w-full md:w-[60%]  overflow-x-visible 
     rounded-none  md:rounded-br-[2.5rem]
-    md:basis-45 bg-gradient-to-r from-[#ec6558]/90 via-[#ec6558]/75 to-[#ec6558]
+    bg-gradient-to-tr from-[#191919]/20 via-[#191919]/70 to-[#191919]
+    
   }
 
   .social__bg__image__ar{
     @apply  relative mt-4 mb-4 ml-8
-    md:mt-[-65%]  md:ml-[50%] lg:mt-[-60%]  lg:ml-[40%]
+    md:mt-[5%]  md:ml-[-20%] lg:mt-[5%]  lg:ml-[-30%]
     w-[85%] md:min-w-[110%] lg:min-w-[120%]
 
   }
 
 .social__handles__ar {
   @apply flex  flex-row md:flex-col
-  justify-evenly pl-12 pt-[20%]
+  justify-evenly  pl-12 pt-[20%]
+  mt-[30%]
 }
   .social__handles__ar div {
     @apply text-white font-gotham-book text-xl 
+    
     mb-0 md:mb-14 hover:cursor-pointer
   
   }
@@ -359,9 +363,16 @@
   .cooking_steps__bg__image{
     @apply  mt-0 mb-4 md:mt-[-20px] ml-12 w-[95%] z-50 md:min-w-[135%]
   }
+  .cooking_steps__bg__image_ar{
+    @apply  mt-0 mb-4 md:mt-[42%] lg:mt-[38%] ml-12 w-[95%] z-50 md:min-w-[135%]
+  }
 
   .steps__block {
     @apply block md:relative h-auto 
+  }
+
+  .steps__block_ar{
+    @apply mt-[-40px]
   }
 
   .steps{
@@ -484,7 +495,7 @@
   .cooking__description_ar{
     @apply text-[#888] font-helvetica-neue-arabic-roman
      text-xs text-right
-    md:mt-[95%] 
+    md:mt-[5%] 
     ml-6 mb-6 pr-9
     md:ml-6 md:mb-6 md:pr-6
   }

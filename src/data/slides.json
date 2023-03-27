@@ -5,7 +5,7 @@
         "img":"/peri_peri.png",
         "weight": "900g",
         "body": "Whole \n Chicken",
-        "link":"onekg"
+        "link":"#onekg"
     },
     {
         "slideId": 2,
@@ -13,7 +13,7 @@
         "img":"/garlic_pepper.png",
         "weight": "900g",
         "body": "Whole \nChicken",
-        "link":"onekg"
+        "link":"#onekg"
     },
     {
         "slideId": 4,
@@ -21,7 +21,7 @@
         "img":"/smoked_bbq.png",
         "weight": "900g",
         "body": "Whole Chicken",
-        "link":"onekg"
+        "link":"#onekg"
     },
     {
         "slideId": 3,
@@ -29,7 +29,7 @@
         "img":"/mediterranean.png",
         "weight": "450g",
         "body": "Half Chicken",
-        "link":"halfkg"
+        "link":"#halfkg"
     },
     
     {
@@ -38,7 +38,7 @@
         "img":"/teriyaki.png",
         "weight": "450g",
         "body": "Half Chicken",
-        "link":"halfkg"
+        "link":"#halfkg"
     }
 ]
 

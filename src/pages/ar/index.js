@@ -3,9 +3,10 @@ import Head from 'next/head'
 import Navbar from './components/navbar'
 import Hero from './components/hero';
 import Steps from './components/steps';
-import Video from './components/video'
+import Video from './components/video';
+import VideoHalf from './components/video_half';
 import Footer from './components/footer';
-import Carousel from './components/carousel'
+import Carousel from './components/carousel';
 
 
 function Ar() {
@@ -26,6 +27,7 @@ function Ar() {
                         <Carousel />
                         <Steps />
                         <Video />
+                        <VideoHalf />
                         <Footer />
                     </div>
 

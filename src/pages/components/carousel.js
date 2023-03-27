@@ -59,7 +59,7 @@ function Carousel() {
             {slides.map((slide, index) => (
 
               < SwiperSlide key={slide.slideId} >
-                <Link href='#cook' >
+                <Link href={slide.link} >
                   <div id={slide.slideId}
                     className={`slide__area  group ${index == 1 && active}`}
                     onMouseEnter={() => setActive(true)}

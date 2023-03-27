@@ -23,48 +23,57 @@ function Steps() {
 
                 <div className=" 
                 z-20 
-                md:basis-45 
+                md:basis-45
                 bg-gradient-to-tr from-[#191919]/60 via-[#191919]/80 to-[#191919]
-                md:bg-gradient-to-r md:from-[#ec6558]/90 md:via-[#ec6558]/75 md:to-[#ec6558]">
-                    <div className="section__heading_ar hidden md:block">
-                        <motion.p
-                            initial={{ opacity: 0, y: -20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 1 }}
-                        >4 خطوات </motion.p>
-                        <motion.p
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 1 }}
-                        >سهلة للطهي</motion.p>
-                    </div>
+                md:bg-gradient-to-r md:from-[#191919]/90 md:via-[#191919]/50 md:to-[#191919]/20">
+                    
                     <motion.div
                         initial={{ opacity: 0, y: -20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1 }}
                         className="image__bg hidden md:block">
-                        <Image className="cooking_steps__bg__image" alt="coooking steps bg" priority="blur" src={cooking_steps} />
+                        <Image className="cooking_steps__bg__image_ar" alt="coooking steps bg" priority="blur" src={cooking_steps} />
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0, y: -20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 1 }}
+                        className="cooking__description_ar hidden md:block">
+                        <p>
+                            قد تختلف درجة الحرارة ومدة الطهي حسب نوع الفرن المنزلي. ُينصح باستخدام صينية الطهي
+                            <br />
+                            وعدم وضع الكيس مباشرة على الشواية. آمن للاستخدام في الميكروويف - قم بضبط مدة
+                            <br />
+                            .الطهي بين 25-30 دقيقة للدجاجة الكاملة و 10-15 دقيقة لنصف الدجاجة
+                        </p>
                     </motion.div>
                 </div>
                 <div className="
                 
                 md:basis-55
                 bg-gradient-to-tr from-[#191919]/60 via-[#191919]/80 to-[#191919]
-                md:bg-gradient-to-r md:from-[#191919]/90 md:via-[#191919]/50 md:to-[#191919]/20">
+                md:bg-gradient-to-r md:from-[#ec6558]/90 md:via-[#ec6558]/75 md:to-[#ec6558]
+                ">
 
-                    <div className="section__heading_ar block md:hidden">
+                    <div className="section__heading_ar block mb-16 md:mb-0 ">
+                        
                         <motion.p
                             initial={{ opacity: 0, y: -20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 1 }}
-                        >4 خطوات </motion.p>
+                        >
+                             <div className='flex justify-end '>
+             <div> خطوات </div>
+             <div>&nbsp;4</div>
+             </div>
+             </motion.p>
                         <motion.p
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 1 }}
                         >سهلة للطهي</motion.p>
                     </div>
-                    <div className="steps__block ">
+                    <div className="steps__block steps__block_ar ">
                         <LayoutGroup>
                             <motion.div
                                 initial={{ opacity: 0, y: -20 }}
@@ -134,28 +143,28 @@ function Steps() {
                                 <div className="steps__desc_ar">
                                     اتركها 45 دقيقة على درجة
                                     <br />
-                                    حرارة 180 مئوية*
+                                    حرارة 180 مئوية
                                 </div>
                                 <div className="step4__img">
                                     <Image className="block md:hidden" alt="cooking step" priority="blur" src={mstep4} />
                                 </div>
                             </motion.div>
                         </LayoutGroup>
-
-                    </div>
-                    <motion.div
+                        <motion.div
                         initial={{ opacity: 0, y: -20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1 }}
-                        className="cooking__description_ar">
+                        className="cooking__description_ar block md:hidden">
                         <p>
-                            *قد تختلف درجة الحرارة ومدة الطهي حسب نوع الفرن المنزلي. ُينصح باستخدام صينية الطهي
+                            قد تختلف درجة الحرارة ومدة الطهي حسب نوع الفرن المنزلي. ُينصح باستخدام صينية الطهي
                             <br />
                             وعدم وضع الكيس مباشرة على الشواية. آمن للاستخدام في الميكروويف - قم بضبط مدة
                             <br />
-                            الطهي بين 25-30 دقيقة للدجاجة الكاملة و 10-15 دقيقة لنصف الدجاجة.
+                            .الطهي بين 25-30 دقيقة للدجاجة الكاملة و 10-15 دقيقة لنصف الدجاجة
                         </p>
                     </motion.div>
+                    </div>
+                    
 
                 </div>
             </div>

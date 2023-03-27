@@ -6,14 +6,14 @@ import Image from "next/image";
 import YoutubeEmbed from "../components/youtubeEmbed";
 
 
-function Video() {
+function VideoHalf() {
   return (
     <div>
       <div
         className=" z-10 md:overflow-hidden
     bg-gradient-to-t from-[#191919] via-[#191919]/40 to-[#191919]/10"
       >
-        <div id="onekg" className="flex 
+        <div id="halfkg" className="flex 
         flex-col
         md:flex-row
         justify-center   
@@ -32,7 +32,7 @@ function Video() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               >
-                How to cook whole chicken!
+                How to cook half chicken!
               </motion.p>
             </div>
             <motion.div
@@ -53,18 +53,14 @@ function Video() {
 
           ">
             <div className="cooking_video" >
-              <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
-              <p className="font-gotham-light text-lg text-white pt-3">Pery Pery Chicken</p>
+            <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
+
+              <p className="font-gotham-light text-lg text-white pt-3">Mediterranean Chicken</p>
             </div>
 
             <div className="cooking_video" >
               <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
-              <p className="font-gotham-light text-lg text-white pt-3">Garlic pepper Chicken</p>
-            </div>
-
-            <div className="cooking_video" >
-              <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
-              <p className="font-gotham-light text-lg text-white pt-3">Smoked BBQ Chicken</p>
+              <p className="font-gotham-light text-lg text-white pt-3">Teriyaki Chicken</p>
             </div>
 
           </div>
@@ -74,4 +70,4 @@ function Video() {
   );
 }
 
-export default Video;
+export default VideoHalf;

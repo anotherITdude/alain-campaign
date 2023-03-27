@@ -5,10 +5,10 @@ import Image from "next/image";
 import YoutubeEmbed from "../../components/youtubeEmbed";
 
 
-function Video() {
+function VideoHalf() {
   return (
-    <div>
-      <div id="onekg"
+    <div >
+      <div id="halfkg"
         className=" z-10 md:overflow-hidden
     bg-gradient-to-t from-[#191919] via-[#191919]/40 to-[#191919]/10"
       >
@@ -17,40 +17,35 @@ function Video() {
         md:flex-row
         justify-center   
         md:justify-evenly md:items-center ">
-         
+
           <div className="right mt-[5%] items-center">
-            
-          <div className="section__heading_ar mt-[-30px] mb-6 block md:hidden">
+
+            <div className="section__heading_ar mt-[-30px] mb-6 block md:hidden">
               <motion.p
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               >
-               شاهد
+                شاهد
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               >
-                !طريقة الطهي 
-                
+                !طريقة الطهي
+
               </motion.p>
             </div>
             <div className="cooking_video" >
-            <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
+              <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
 
-              <p className="font-helvetica-neue-arabic-roman text-right text-lg text-white pt-3">بنكهة البيري بيري"</p>
+              <p className="font-helvetica-neue-arabic-roman text-right text-lg text-white pt-3">باالنكهة المتوسطية</p>
             </div>
 
             <div className="cooking_video" >
               <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
-              <p className="font-helvetica-neue-arabic-roman text-right text-lg text-white pt-3">بنكهة الثوم والفلفل</p>
-            </div>
-
-            <div className="cooking_video">
-              <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
-              <p className="font-helvetica-neue-arabic-roman text-right text-lg text-white pt-3">بنكهة الباربكيو المدخن</p>
+              <p className="font-helvetica-neue-arabic-roman text-right text-lg text-white pt-3">بنكهة التيرياكي</p>
             </div>
 
           </div>
@@ -62,15 +57,15 @@ function Video() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               >
-               شاهد
+                شاهد
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               >
-                !طريقة الطهي 
-                
+                !طريقة الطهي
+
               </motion.p>
             </div>
             <motion.div
@@ -95,4 +90,4 @@ function Video() {
   );
 }
 
-export default Video;
+export default VideoHalf;

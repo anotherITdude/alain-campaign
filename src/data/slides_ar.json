@@ -5,7 +5,7 @@
         "img":"/peri_peri_ar.png",
         "weight": "900 غرام ",
         "body": "دجاجة كاملة ",
-        "link":"onekg"
+        "link":"#onekg"
     },
     {
         "slideId": 2,
@@ -13,7 +13,7 @@
         "img":"/garlic_pepper_ar.png",
         "weight": "900 غرام ",
         "body": "دجاجة كاملة ",
-        "link":"onekg"
+        "link":"#onekg"
     },
     {
         "slideId": 4,
@@ -21,7 +21,7 @@
         "img":"/smoked_bbq_ar.png",
         "weight": "900 غرام ",
         "body": "دجاجة كاملة ",
-        "link":"onekg"
+        "link":"#onekg"
     },
     {
         "slideId": 3,
@@ -29,7 +29,7 @@
         "img":"/mediterranean_ar.png",
         "weight": "450 غرام",
         "body": "نصف دجاجة ",
-        "link":"halfkg"
+        "link":"#halfkg"
     },
     
     {
@@ -38,7 +38,7 @@
         "img":"/teriyaki_ar.png",
         "weight": "450 غرام",
         "body": "نصف دجاجة ",
-        "link":"halfkg"
+        "link":"#halfkg"
     }
 ]
 

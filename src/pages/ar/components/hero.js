@@ -95,8 +95,8 @@ function Hero() {
                 transition={{ duration: 2, type: "spring", stiffness: 100 }}
                 className="mt-[-5px]"
               >
-                <span className="text-xl md:text-2xl">واحصل</span> على ألذ وأشهى
-                وجبة دجاج!
+                <span className="text-xl md:text-2xl">!واحصل</span>
+                على ألذ وأشهى وجبة دجاج
               </motion.p>
             </div>
 
@@ -114,7 +114,7 @@ function Hero() {
               <p> "ُيطبخ في الكيس" أبسط طريقة لإعداد&nbsp;</p>
               <p>أشهى وألذ وصفات الدجاج في المنزل</p>
               <p> على طريقة الشيف. استمتع بالدجاج&nbsp;</p>
-              <p>المتبل الطازج 100% واللذيذ 100%!</p>
+              <p>!%المتبل الطازج 100% واللذيذ 100 </p>
             </motion.div>
 
             <motion.div
@@ -165,8 +165,8 @@ function Hero() {
                 transition={{ duration: 2, type: "spring", stiffness: 100 }}
                 className="mt-[-5px]"
               >
-                <span className="text-xl md:text-2xl">واحصل</span> على ألذ وأشهى
-                وجبة دجاج!
+                <span className="text-xl md:text-2xl">!واحصل</span> على ألذ وأشهى
+                وجبة دجاج
               </motion.p>
             </div>
 
@@ -187,7 +187,7 @@ function Hero() {
             </p>
             <p className="mt-1">
               {" "}
-              على طريقة الشيف. استمتع بالدجاج المتبل الطازج 100% واللذيذ 100%!
+              !%على طريقة الشيف. استمتع بالدجاج المتبل الطازج 100% واللذيذ 100
             </p>
           </motion.div>
         </div>
@@ -211,7 +211,8 @@ function Hero() {
           >
             <p>مذاق ونكهة</p>
             <p>الشيف، داخل</p>
-            <p>منزلك!</p>
+            <p>!منزلك</p>
+
           </motion.div>
         </div>
 
@@ -228,8 +229,8 @@ function Hero() {
                         pt-3 pb-3 pl-10 pr-6
                         "
         >
-          <p> مذاق ونكهة الشيف، داخل </p>
-          <p>منزلك!</p>
+          <p> مذاق ونكهة الشيف، داخل</p>
+          <p>!منزلك</p>
         </motion.div>
       </div>
     </div>
