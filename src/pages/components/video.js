@@ -54,7 +54,7 @@ function Video() {
           ">
             <div className="cooking_video" >
               <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
-              <p className="font-gotham-light text-lg text-white pt-3">Pery Pery Chicken</p>
+              <p className="font-gotham-light text-lg text-white pt-3">Peri Peri Chicken</p>
             </div>
 
             <div className="cooking_video" >
