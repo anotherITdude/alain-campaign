@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import cook from "../../../../public/Cooked-Whole-Chicken.png";
+import cook from "../../../../public/Cooked-Half-Chicken.png";
 import Image from "next/image";
 import YoutubeEmbed from "../../components/youtubeEmbed";
 
@@ -26,14 +26,14 @@ function VideoHalf() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               >
-                شاهد
+               شاهد
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-              >
-                !طريقة الطهي
+              >!
+              طريقة طهي نصف دجاجة
 
               </motion.p>
             </div>
@@ -63,9 +63,8 @@ function VideoHalf() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-              >
-                !طريقة الطهي
-
+              >!
+              طريقة طهي نصف دجاجة
               </motion.p>
             </div>
             <motion.div

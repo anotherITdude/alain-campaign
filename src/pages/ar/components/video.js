@@ -32,15 +32,15 @@ function Video() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-              >
-                !طريقة الطهي 
+              >!
+                 طهي دجاجة كاملة
                 
               </motion.p>
             </div>
             <div className="cooking_video" >
             <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
 
-              <p className="font-helvetica-neue-arabic-roman text-right text-lg text-white pt-3">بنكهة البيري بيري"</p>
+              <p className="font-helvetica-neue-arabic-roman text-right text-lg text-white pt-3">بنكهة البيري بيري</p>
             </div>
 
             <div className="cooking_video" >
@@ -68,8 +68,8 @@ function Video() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-              >
-                !طريقة الطهي 
+              >!
+                 طهي دجاجة كاملة
                 
               </motion.p>
             </div>
