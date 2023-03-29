@@ -32,8 +32,7 @@ function VideoHalf() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-              >!
-              طريقة طهي نصف دجاجة
+              >!طريقة طهي نصف دجاجة
 
               </motion.p>
             </div>
@@ -63,8 +62,7 @@ function VideoHalf() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-              >!
-              طريقة طهي نصف دجاجة
+              >!طريقة طهي نصف دجاجة
               </motion.p>
             </div>
             <motion.div
