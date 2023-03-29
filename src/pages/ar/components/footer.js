@@ -47,7 +47,7 @@ function Footer() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
-            >مواقع التواصل الاجتماعي وشاركها معنا</motion.p>
+              >!مواقع التواصل الاجتماعي وشاركها معنا</motion.p>
           </div>
           <div className="image__bg hidden md:block w-[100%] ">
             <Image className="social__bg__image__ar" alt="social media bg" priority="blur" src={SocialMediaBg} />
@@ -63,7 +63,7 @@ function Footer() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-              >مواقع التواصل الاجتماعي وشاركها معنا</motion.p>
+              >!مواقع التواصل الاجتماعي وشاركها معنا</motion.p>
             </div>
 
 

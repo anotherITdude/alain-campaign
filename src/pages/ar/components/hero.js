@@ -221,13 +221,13 @@ function Hero() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 2, type: "spring", stiffness: 100 }}
           className="
-                        block md:hidden 
-                      text-white tracking-wider spacing-y-6
-                      font-bebasar-bold uppercase 
-                        md:basis-45 bg-gradient-to-r from-[#ec6558]/90 via-[#ec6558]/75 to-[#ec6558]
-                        text-3xl md:text-5xl text-right
-                        pt-3 pb-3 pl-10 pr-6 
-                        "
+            block md:hidden 
+          text-white tracking-wider spacing-y-6
+          font-bebasar-bold uppercase 
+            md:basis-45 bg-gradient-to-r from-[#ec6558]/90 via-[#ec6558]/75 to-[#ec6558]
+            text-3xl md:text-5xl text-right
+            pt-3 pb-3 pl-10 pr-6 
+            "
         >
           <p className="ar_text_effect_v2"> مذاق ونكهة الشيف، داخل</p>
           <p className="ar_text_effect_v2">!منزلك</p>
