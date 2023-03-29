@@ -75,7 +75,12 @@ function Carousel() {
                     onMouseLeave={() => setActive('')}
                   >
                     <p className="slide__heading_ar block md:invisible md:group-hover:visible">{slide.title}</p>
-                    <p className="slide__weight_ar block md:invisible md:group-hover:visible ">{slide.weight}</p>
+                    <p className="slide__weight_ar block md:invisible md:group-hover:visible ">
+                    <div className='flex justify-end mb-1 '>
+                      <div>{slide.weight}</div>
+                      <div className="ml-1">{slide.weightN}</div>
+                    </div>
+                    </p>
                     <Image priority="blur" className="image group-hover:scale-110 " src={slide.img} width={250} height={180} alt={slide.title} />
                     <p className="slide__desc_ar block md:invisible md:group-hover:visible ">{slide.body}</p>
                   </div>

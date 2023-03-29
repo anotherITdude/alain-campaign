@@ -46,14 +46,14 @@ function Hero() {
                     text-5xl md:text-6xl lg:text-8xl
                  text-white
                     mt-5 ml-5 mb-4
-                    md:mt-6 md:ml-10 leading-12 
+                    md:mt-6 md:ml-10 leading-12  ar_text_effect
                     "
             >
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-                className="pl-1"
+                className="pr-2 "
               >
                 &nbsp;يُطبخ في
               </motion.p>
@@ -206,7 +206,7 @@ function Hero() {
                     font-bebasar-bold uppercase 
                     text-3xl md:text-5xl 
                    text-white md:text-right
-                    justify-center
+                    justify-center ar_text_effect_v2
                      "
           >
             <p>مذاق ونكهة</p>
@@ -226,11 +226,11 @@ function Hero() {
                       font-bebasar-bold uppercase 
                         md:basis-45 bg-gradient-to-r from-[#ec6558]/90 via-[#ec6558]/75 to-[#ec6558]
                         text-3xl md:text-5xl text-right
-                        pt-3 pb-3 pl-10 pr-6
+                        pt-3 pb-3 pl-10 pr-6 
                         "
         >
-          <p> مذاق ونكهة الشيف، داخل</p>
-          <p>!منزلك</p>
+          <p className="ar_text_effect_v2"> مذاق ونكهة الشيف، داخل</p>
+          <p className="ar_text_effect_v2">!منزلك</p>
         </motion.div>
       </div>
     </div>

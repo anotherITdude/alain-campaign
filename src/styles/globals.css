@@ -46,7 +46,27 @@
   src: url("../Fonts/HelveticaNeueLTArabic-Roman.otf");
 }
 
+.ar_text_effect {
+  background: url("../../public/text_effect_ar.png") no-repeat center center;
+  color: #fff;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip:text;
+  background-clip:text; 
+  font-family: "bebasar-bold";
+ }
 
+ .ar_text_effect_v2 {
+  background: url("../../public/ef-2.png") no-repeat center center;
+  color: #fff;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip:text;
+  background-clip:text; 
+  font-family: "bebasar-bold";
+ }
 
 @layer components {
   body {

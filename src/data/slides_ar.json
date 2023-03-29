@@ -3,7 +3,8 @@
         "slideId": 1,
         "title": "بنكهة البيري بيري",
         "img":"/peri_peri_ar.png",
-        "weight": "900 غرام ",
+        "weight": "غرام ",
+        "weightN":"900",
         "body": "دجاجة كاملة ",
         "link":"#onekg"
     },
@@ -11,7 +12,8 @@
         "slideId": 2,
         "title": "بنكهة الثوم والفلفل ",
         "img":"/garlic_pepper_ar.png",
-        "weight": "900 غرام ",
+        "weight": "غرام",
+        "weightN":"900",
         "body": "دجاجة كاملة ",
         "link":"#onekg"
     },
@@ -19,7 +21,8 @@
         "slideId": 4,
         "title": "بنكهة الباربكيو المدخن",
         "img":"/smoked_bbq_ar.png",
-        "weight": "900 غرام ",
+        "weight": "غرام ",
+        "weightN":"900",
         "body": "دجاجة كاملة ",
         "link":"#onekg"
     },
@@ -27,7 +30,8 @@
         "slideId": 3,
         "title": "باالنكهة المتوسطية",
         "img":"/mediterranean_ar.png",
-        "weight": "450 غرام",
+        "weight": "غرام",
+        "weightN":"450",
         "body": "نصف دجاجة ",
         "link":"#halfkg"
     },
@@ -36,7 +40,8 @@
         "slideId": 5,
         "title": "بنكهة التيرياكي",
         "img":"/teriyaki_ar.png",
-        "weight": "450 غرام",
+        "weight": "غرام",
+        "weightN":"450",
         "body": "نصف دجاجة ",
         "link":"#halfkg"
     }
