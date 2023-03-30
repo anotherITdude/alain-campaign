@@ -32,7 +32,7 @@ function Video() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-              >!طهي دجاجة كاملة
+              >!طريقة طهي دجاجة كاملة  
                 
               </motion.p>
             </div>
@@ -67,7 +67,8 @@ function Video() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-              >!طهي دجاجة كاملة
+                
+              >!طريقة طهي دجاجة كاملة
                 
               </motion.p>
             </div>

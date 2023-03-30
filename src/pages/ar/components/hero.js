@@ -85,7 +85,7 @@ function Hero() {
                 transition={{ duration: 2, type: "spring", stiffness: 100 }}
               >
                 {" "}
-                <span className="text-2xl md:text-2xl ">ادخل</span>الدجاجة داخل
+                <span className="text-2xl md:text-2xl ml-0 ">ادخل </span>داخل الدجاجة 
                 كيس الطهي
               </motion.p>
 
@@ -95,8 +95,8 @@ function Hero() {
                 transition={{ duration: 2, type: "spring", stiffness: 100 }}
                 className="mt-[-5px]"
               >
-                <span className="text-xl md:text-2xl">!واحصل</span>
-                على ألذ وأشهى وجبة دجاج
+                <span className="text-xl md:text-2xl">!واحصل على&nbsp;</span>
+                ألذ وأشهى وجبة دجاج
               </motion.p>
             </div>
 
@@ -155,7 +155,7 @@ function Hero() {
                 transition={{ duration: 2, type: "spring", stiffness: 100 }}
               >
                 {" "}
-                <span className="text-2xl md:text-2xl ">ادخل</span>الدجاجة داخل
+                <span className="text-2xl md:text-2xl ml-1 ">ادخل </span> داخل الدجاجة
                 كيس الطهي
               </motion.p>
 
@@ -165,7 +165,7 @@ function Hero() {
                 transition={{ duration: 2, type: "spring", stiffness: 100 }}
                 className="mt-[-5px]"
               >
-                <span className="text-xl md:text-2xl">!واحصل</span> على ألذ وأشهى
+                <span className="text-xl md:text-2xl">!واحصل على&nbsp;</span>ألذ وأشهى
                 وجبة دجاج
               </motion.p>
             </div>
