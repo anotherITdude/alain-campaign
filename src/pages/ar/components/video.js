@@ -37,18 +37,18 @@ function Video() {
               </motion.p>
             </div>
             <div className="cooking_video" >
-            <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
+            <YoutubeEmbed className="rounded-3xl" embedId="z0R00rh4oG8" />
 
               <p className="font-helvetica-neue-arabic-roman text-right text-lg text-white pt-3">بنكهة البيري بيري</p>
             </div>
 
             <div className="cooking_video" >
-              <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
+              <YoutubeEmbed className="rounded-3xl" embedId="TLaryCiQzBs" />
               <p className="font-helvetica-neue-arabic-roman text-right text-lg text-white pt-3">بنكهة الثوم والفلفل</p>
             </div>
 
             <div className="cooking_video">
-              <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
+              <YoutubeEmbed className="rounded-3xl" embedId="6zIDFqb4Bxc" />
               <p className="font-helvetica-neue-arabic-roman text-right text-lg text-white pt-3">بنكهة الباربكيو المدخن</p>
             </div>
 

@@ -53,13 +53,13 @@ function VideoHalf() {
 
           ">
             <div className="cooking_video" >
-              <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
+              <YoutubeEmbed className="rounded-3xl" embedId="rnC4EMotW-c" />
 
               <p className="font-gotham-light text-lg text-white pt-3">Mediterranean Chicken</p>
             </div>
 
             <div className="cooking_video" >
-              <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
+              <YoutubeEmbed className="rounded-3xl" embedId="jyAadOGSTd8" />
               <p className="font-gotham-light text-lg text-white pt-3">Teriyaki Chicken</p>
             </div>
 

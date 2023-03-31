@@ -53,17 +53,17 @@ function Video() {
 
           ">
             <div className="cooking_video" >
-              <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
+              <YoutubeEmbed className="rounded-3xl" embedId="Pp7ru2TGt-M" />
               <p className="font-gotham-light text-lg text-white pt-3">Peri Peri Chicken</p>
             </div>
 
             <div className="cooking_video" >
-              <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
+              <YoutubeEmbed className="rounded-3xl" embedId="DrJMoP75KWM" />
               <p className="font-gotham-light text-lg text-white pt-3">Garlic pepper Chicken</p>
             </div>
 
             <div className="cooking_video" >
-              <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
+              <YoutubeEmbed className="rounded-3xl" embedId="bYJWH2Zf7bs" />
               <p className="font-gotham-light text-lg text-white pt-3">Smoked BBQ Chicken</p>
             </div>
 

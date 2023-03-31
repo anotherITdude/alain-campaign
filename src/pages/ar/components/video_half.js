@@ -37,13 +37,13 @@ function VideoHalf() {
               </motion.p>
             </div>
             <div className="cooking_video" >
-              <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
+              <YoutubeEmbed className="rounded-3xl" embedId="1MPzpiYSQP0" />
 
               <p className="font-helvetica-neue-arabic-roman text-right text-lg text-white pt-3">باالنكهة المتوسطية</p>
             </div>
 
             <div className="cooking_video" >
-              <YoutubeEmbed className="rounded-3xl" embedId="mxj8eb6Fn4k" />
+              <YoutubeEmbed className="rounded-3xl" embedId="cNNPrekeQG0" />
               <p className="font-helvetica-neue-arabic-roman text-right text-lg text-white pt-3">بنكهة التيرياكي</p>
             </div>
 
