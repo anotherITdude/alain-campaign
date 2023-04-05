@@ -216,11 +216,11 @@
   }
 
   .mySwiper .slide__desc {
-    @apply font-gotham-book uppercase text-white mb-4 mt-5 text-sm
+    @apply font-gotham-bold uppercase text-white mb-4 mt-4 text-sm
   }
 
   .mySwiper .slide__desc_ar {
-    @apply font-helvetica-neue-arabic-roman uppercase text-white mb-4 mt-5 text-lg
+    @apply font-helvetica-neue-arabic-bold uppercase text-white mb-4 mt-3 text-lg
   }
 
   .slide__heading_ar{
