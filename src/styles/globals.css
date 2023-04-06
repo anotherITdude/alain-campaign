@@ -203,7 +203,7 @@
     
   }
   .mySwiper .slide__heading_ar {
-    @apply font-helvetica-neue-arabic-roman uppercase text-white 
+    @apply font-helvetica-neue-arabic-bold uppercase text-white 
     text-lg mb-4 mt-[-30px] 
   }
 
